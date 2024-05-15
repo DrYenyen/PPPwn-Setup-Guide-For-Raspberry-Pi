@@ -34,6 +34,7 @@ This will let you -
 1. Connect to your Pi via SSH.  
 2. Forward an internet connection to your PS4 removing the need to unplug ethernet and change console internet settings.  
 3. Update the script and payloads and etc.    
+  
 **If your pi has no wireless capabilities you will have to use a second display for the instalation part of the script setup after that it will run automatically**   
 **Services**  
 ![-](imgs/SSH.JPG)  
