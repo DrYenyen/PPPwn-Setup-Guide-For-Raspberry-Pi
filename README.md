@@ -89,6 +89,9 @@ sudo apt install git -y
 sudo rm -f -r PI-Pwn
 ```    
 ```
+sudo systemctl stop pipwn
+```    
+```
 git clone https://github.com/stooged/PI-Pwn
 ```  
 ```
