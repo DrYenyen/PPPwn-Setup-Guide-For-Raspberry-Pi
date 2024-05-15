@@ -111,7 +111,7 @@ The Terminal will then ask you some setup questions
 Only for co,patible Pi's which are connected to your home wifi network  
 Chosing **Y** for this option you will not be turning off the pi after a succsfull pwn run otherwise choose **N**    
 ![-](imgs/Q1.JPG) 
-Do you want the pi to shutdown after pwn success  
+Do you want the pi to shutdown after pwn success    
 Choose yes if you do not want to connect the ps4 to the internet using a wifi compatible pi 
 ![-](imgs/Q2.JPG)  
 Are you using a usb to ethernet adapter for the console connection  
