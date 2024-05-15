@@ -10,7 +10,7 @@ Download and install [Raspberry Pi Imager](https://www.raspberrypi.com/software/
 ![-](imgs/PiDevice.JPG)  
 **Choose the OS**  
 ![-](imgs/ChooseOS.JPG)  
-For this exploit it is best to use **Raspberry Pi OS Lite** foound in **Raspberry Pi OS (other)**  
+For this exploit it is best to use **Raspberry Pi OS Lite** found in **Raspberry Pi OS (other)**  
 ![-](imgs/PiOSother.JPG)  
 (64-bit ver limited compatablity)
 ![-](imgs/64-bit.JPG)  
@@ -21,8 +21,8 @@ For this exploit it is best to use **Raspberry Pi OS Lite** foound in **Raspberr
 ![-](imgs/EditSettings.JPG)  
 **General**  
 ![-](imgs/General2.JPG)  
-**Set hostname**    
- This will be what you type in as your SSH hostname 
+**Set hostname**      
+ This will be what you type in as your SSH hostname   
 **Set usename and password**  
 used to log into the pi :/   
 Set them as anything you want just remember them for later  
