@@ -81,7 +81,11 @@ And you are now connected to the Pi
 One by one run these commands  
 'sudo apt update'  
 'sudo apt install git -y'  
-
+```
+function test() {
+  console.log("This code will have a copy button to the right of it");
+}
+```
 
 
  
