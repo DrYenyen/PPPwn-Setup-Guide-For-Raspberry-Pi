@@ -76,7 +76,7 @@ Then Put in your previosly chosen Pi hostname
 Press Accept on the window that will open then put in the previosly set up username and passsword  
 ![-](imgs/ssh2.JPG)  
 And you are now connected to the Pi  
-![-](imgs/ssh3.JPG)  
+![-](imgs/ssh4.JPG)    
 # Installing the PI-pwn script by [stooged](https://github.com/stooged/PI-Pwn)  
 
 
