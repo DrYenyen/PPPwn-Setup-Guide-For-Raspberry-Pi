@@ -8,7 +8,7 @@ Downlaod and install [Raspberry Pi Imager](https://www.raspberrypi.com/software/
 ![-](PiImager.JPG)   
 **Choose the Pi device you are using**  
 ![-](PiDevice.JPG)  
-**Choose the OS**
+**Choose the OS**  
 ![-](ChooseOS.JPG)  
 For this exploit it is best to use **Raspberry Pi OS Lite** foound in **Raspberry Pi OS (other)**  
 ![-](PiOSother.JPG)  
