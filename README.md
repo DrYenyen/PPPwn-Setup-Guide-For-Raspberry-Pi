@@ -64,13 +64,13 @@ Power on your Pi and wait a few minutes for initial setup to auto complete(progr
 Not applicable if your Pi has no Wi-Fi Continue over HDMI  
 How to SSH into the Pi 
 # Download and install  
-[PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)  
-Once installed 
+[PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)    
+Once installed   
 It will show up on the bottom right 
 ![-](imgs/putty.JPG)   
 Right click to open a new session 
 ![-](imgs/putty2.JPG)  
-Then Put in your previosly chosen Pi hostname
+Then Put in your previosly chosen Pi hostname  
 ![-](imgs/General.JPG)  
   
 
