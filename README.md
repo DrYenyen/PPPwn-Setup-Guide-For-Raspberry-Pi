@@ -5,17 +5,17 @@ This guide goes over how to set up [PI-Pwn](https://github.com/stooged/PI-Pwn?ta
 I will cover the setup for only Raspberry Pi devices.  
 # Installing Raspberry Pi OS  
 Download and install [Raspberry Pi Imager](https://www.raspberrypi.com/software/)  
-![-](PiImager.JPG)   
+![-](imgs/PiImager.JPG)   
 **Choose the Pi device you are using**  
-![-](PiDevice.JPG)  
+![-](imgs/PiDevice.JPG)  
 **Choose the OS**  
-![-](ChooseOS.JPG)  
+![-](imgs/ChooseOS.JPG)  
 For this exploit it is best to use **Raspberry Pi OS Lite** foound in **Raspberry Pi OS (other)**  
 ![-](PiOSother.JPG)  
 (64-bit ver limited compatablity)
-![-](64-bit.JPG)  
+![-](imgs/64-bit.JPG)  
 **Choose storage**  
-![-](ChooseStr.JPG)  
+![-](imgs/ChooseStr.JPG)  
 **OS customisation**  
 **Edit settings** Reccomended!   
 ![-](imgs/EditSettings.JPG)  
@@ -24,7 +24,16 @@ For this exploit it is best to use **Raspberry Pi OS Lite** foound in **Raspberr
  This will be what you type in as your SSH hostname  
 **Set usename and password**  
 used to log into the pi :/   
-Set them as anythign you want just remember them for later
+Set them as anything you want just remember them for later  
+**Configure wireless LAN**  
+Let the Pi connect to your home Wi-Fi  
+Pi Model Dependant!!!  
+![-](imgs/PiModels.JPG)   
+This will let you -   
+1. Connect to your Pi via SSH.  
+2. Forward an internet connection to your PS4 removing the need to unplug ethernet or change console internet settings.  
+3. Update the script and payloads.  
+
  
 
 
