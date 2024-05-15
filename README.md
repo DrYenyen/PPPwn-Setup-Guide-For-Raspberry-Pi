@@ -127,7 +127,7 @@ Choose **N** :/
 5. Would you like to change the firmware version being used, the default is 11.00  
 The only other compaible firmware at the time of writing is 9.00 so choose **Y** and type in 9.00 if that is the firmware you are using or simply choose **N** if you are on 11.00  
 ![-](imgs/Q5.JPG) 
-6.Would you like to change the pi lan interface, the default is eth0    
+6. Would you like to change the pi lan interface, the default is eth0    
 For Pi's with ethernet choose **N**   
 ![-](imgs/Q6.JPG)   
 The Pi will then reboot  
