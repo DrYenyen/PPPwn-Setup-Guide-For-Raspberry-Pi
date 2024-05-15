@@ -144,7 +144,7 @@ On your PS4
 3. Choose **Custom** setup and choose **PPPoE** for IP Address Settings  
 4. Put in *ppp* as **Username** and ***Password***  
 5. Choose **Automatic** for *DNS Settings* and *MTU Settings*
-6. Choose **Do not use** for *Proxy Server**   
+6. Choose **Do not use** for *Proxy Server*   
 7. Stay at the **Test Internet connection** Screen  
 
 # Executing the exploit   
