@@ -8,3 +8,4 @@ Downlaod and install [Raspberry Pi Imager](https://www.raspberrypi.com/software/
 ![-](1.JPG)   
 Choose ==the Pi device you are using==.  
 ![-](2.JPG)  
+I need to highlight these ==very important words==.
