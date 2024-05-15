@@ -18,7 +18,7 @@ For this exploit it is best to use **Raspberry Pi OS Lite** foound in **Raspberr
 ![-](ChooseStr.JPG)  
 **OS customisation**  
 **Edit settings** Reccomended!   
-![-](https://github.com/DrYenyen/DrYenyen-PPPwn-For-Raspberry-Pi-Setup-Guide/blob/b2d3dd9a4f7c2b160ab40a4ca89d70b6eb45957f/imgs/64-bit.JPG)  
+![-](imgs/64-bit.JPG)  
 **General**
 **Set hostname**  
  This will be what you type in as your SSH hostname  
