@@ -134,9 +134,14 @@ The Pi will then reboot
 Connect a Ethernet Cable to the PS4 and Pi   
 # Putting Goldhen on a USB  
 Download [Goldhen](https://github.com/GoldHEN/GoldHEN/releases/tag/2.4b17) By SiSTR0   
-And put the *goldhen.bin* on a USB formatted in exFAT or FAT32 and plug it into your PS4  
-  
-  
+And put the *goldhen.bin* on a USB formatted in exFAT or FAT32 and plug it into your PS4.
+
+Windows has several built-in disk format tools that can be used to format a USB drive.  
+**Windows File Explorer** To do this, open file explorer then right-click on the drive and select “Format”.  
+**Windows Disk Management** This is a built-in utility that allows you to format a disk or a partition. To access it, go to Control Panel > System and Security > Administrative Tools > Computer Management. In the left pane, under Storage, select Disk Management. Right-click the volume you want to format and select Format.
+
+Or you can use a 3rd party option like [partition wizard](https://www.partitionwizard.com/)  
+
 # Setting up the PS4 internet connection  
 On your PS4  
 1. Go to **Settings** and then **Network**   
