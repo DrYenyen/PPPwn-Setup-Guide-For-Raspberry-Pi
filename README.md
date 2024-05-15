@@ -35,7 +35,8 @@ This will let you -
 2. Forward an internet connection to your PS4 removing the need to unplug ethernet and change console internet settings.  
 3. Update the script and payloads and etc.    
   
-**If your pi has no wireless capabilities you will have to use a second display for the instalation part of the script setup after that it will run automatically**   
+**If your pi has no wireless capabilities you will have to use a second display for the instalation part of the script setup after that it will run automatically**  
+    
 **Services**  
 ![-](imgs/SSH.JPG)  
 Tick    
@@ -44,4 +45,19 @@ Then choose
 use password authentication  
 **Options**  
 ![-](imgs/Opts1.JPG)  
-Untick everything and then press **Save**  
+Untick everything and then press **Save** 
+**Would you like to apply OS Customasation settings**  
+Press Yes  
+![-](imgs/Ye.JPG)  
+**All data on the storage device you chose will be erased**  
+Confirm the device you chose is your SD Card then choose **Yes**  
+![-](imgs/Ye2.JPG)  
+Then wait while the Pi OS is written to the SD Card  
+Some drive error windows may show up press on 'Cancel' and 'OK' for any of them  
+![-](imgs/Dun.JPG)  
+Once the procces is finished some drive error windows may show up press on 'Cancel' and 'OK' for any of them you can then eject the SD Card and plug it into your Pi  
+Power on your pi and wait 1 or 2 minutes for initial setup to auto complete  
+
+
+
+
