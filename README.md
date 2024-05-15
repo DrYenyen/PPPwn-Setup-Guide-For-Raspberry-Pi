@@ -118,7 +118,8 @@ Chosing **Y** for this option you will not be turning off the pi after a succsfu
 Choose yes if you do not want to connect the ps4 to the internet using a wifi compatible pi  
 Are you using a usb to ethernet adapter for the console connection  
 If you are using a Pi with no ethernet port choose **Y** if not then **N**
-![-](imgs/Q2.JPG)
+![-](imgs/Q2.JPG)  
+3. Are you using a usb to ethernet port(for Pi's with no ethernet port) choose **Y** if you are using a usb o ethernet adapter **N** if you are using ethernet  
 ![-](imgs/Q3.JPG)   
 ![-](imgs/Q4.JPG)   
 ![-](imgs/Q5.JPG)   
