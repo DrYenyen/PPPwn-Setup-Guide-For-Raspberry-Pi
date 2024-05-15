@@ -107,6 +107,8 @@ sudo chmod 777 *
 sudo bash install.sh
 ```  
 The Terminal will then ask you some setup questions  
+  
+
 ![-](imgs/Q1.JPG)  
 1. Do you want the console to connect to the internet after PPPwn?  
 Only for co,patible Pi's which are connected to your home wifi network  
