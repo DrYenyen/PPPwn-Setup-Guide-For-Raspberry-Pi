@@ -1,9 +1,9 @@
 # PPPwn-For-Raspberry-Pi-Setup-Guide
-A step by step guide in hopes of making installation as clear and easy as possible.  
-Primaraly for Windows users 
+A step by step guide in hopes of making installation as clear and easy as possible    
+Primaraly for Windows users   
 This guide goes over how to set up [PI-Pwn](https://github.com/stooged/PI-Pwn?tab=readme-ov-file#pi-pwn)  
-I will cover the setup for only Raspberry Pi devices.  
-# Installing Raspberry Pi OS  
+I will cover the setup for only Raspberry Pi devices    
+# Installing Raspberry Pi OS    
 Download and install [Raspberry Pi Imager](https://www.raspberrypi.com/software/)  
 ![-](imgs/PiImager.JPG)   
 **Choose the Pi device you are using**  
@@ -111,36 +111,29 @@ The Terminal will then ask you some setup questions
 
   
 1. Do you want the console to connect to the internet after PPPwn?  
-Only for co,patible Pi's which are connected to your home wifi network  
-Chosing **Y** for this option you will not be turning off the pi after a succsfull pwn run otherwise choose **N** 
+Only for compatible Pi's which are connected to your home Wi-Fi network  
+Chosing **Y** for this option means you will not be turning off the pi after a succsfull pwn run otherwise choose **N** 
 ![-](imgs/Q1.JPG)     
-2. Do you want the pi to shutdown after pwn success    
-Choose yes if you do not want to connect the ps4 to the internet using a wifi compatible pi  
+2. Do you want the Pi to shutdown after pwn success    
+Choose yes if you do not want to connect the PS4 to the internet using a Wi-Fi compatible Pi
 Are you using a usb to ethernet adapter for the console connection  
 If you are using a Pi with no ethernet port choose **Y** if not then **N**
 ![-](imgs/Q2.JPG)  
-3. Are you using a usb to ethernet port(for Pi's with no ethernet port) choose **Y** if you are using a usb o ethernet adapter **N** if you are using ethernet  
+3. Are you using a usb to ethernet adapter    
+For Pi's with no ethernet port choose **Y** or **N** if you are using ethernet 
 ![-](imgs/Q3.JPG)  
 4. Do you want to use the old python version of pppwn, It is much slower  
 Choose **N** :/  
 ![-](imgs/Q4.JPG)   
 5. Would you like to change the firmware version being used, the default is 11.00  
-The only other compaible firmware at the time of writing is 9.00 so type in 9.00 if that is the firmware you are using  
+The only other compaible firmware at the time of writing is 9.00 so choose **Y** and type in 9.00 if that is the firmware you are using or simply choose **N** if you are on 11.00  
 ![-](imgs/Q5.JPG) 
-Would you like to change the pi lan interface, the default is eth0  
-For Pi's with ethernet choose **N**  
+6.Would you like to change the pi lan interface, the default is eth0    
+For Pi's with ethernet choose **N**   
 ![-](imgs/Q6.JPG)   
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
+The Pi will then reboot  
+  
+  
+# Setting up the PS4 internet connection  
+On your PS4
+1.Go to *Settings* and then *Network*  
