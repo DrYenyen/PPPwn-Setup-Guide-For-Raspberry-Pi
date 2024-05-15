@@ -61,8 +61,8 @@ Some drive error windows may show up press on 'Cancel' and 'OK' for any of them
 Once the procces is finished some drive error windows may show up press on 'Cancel' and 'OK' for any of them you can then eject the SD Card and plug it into your Pi  
 Power on your Pi and wait a few minutes for initial setup to auto complete(progress can be viewed over HDMI)    
 # SSH into the Pi  
-Not applicable if your Pi has no Wi-Fi Continue over HDMI  
-How to SSH into the Pi 
+Not applicable if your Pi has no Wi-Fi Continue over HDMI   
+**How to SSH into the Pi** 
 # Download and install  
 [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)    
 Once installed   
@@ -74,10 +74,14 @@ Right click and open a new session
 Then Put in your previosly chosen Pi hostname   
 ![-](imgs/putty3.JPG)  
 Press Accept on the window that will open then put in the previosly set up username and passsword  
-![-](imgs/ssh2.JPG)  
-And you are now connected to the Pi  
+![-](imgs/ssh2.JPG)    
+And you are now connected to the Pi    
 ![-](imgs/ssh4.JPG)    
 # Installing the PI-pwn script by [stooged](https://github.com/stooged/PI-Pwn)  
+One by one run these commands  
+'sudo apt update'  
+'sudo apt install git -y'  
+
 
 
  
