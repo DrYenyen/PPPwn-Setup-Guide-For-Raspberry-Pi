@@ -6,5 +6,5 @@ I will cover the setup for only Raspberry Pi devices.
 # Downoading and installing Raspberry Pi OS  
 Downlaod and install [Raspberry Pi Imager](https://www.raspberrypi.com/software/)  
 ![-](1.JPG)   
-==Choose the Pi device you are using==
+==Choose the Pi device you are using==  
 ![-](2.JPG)  
