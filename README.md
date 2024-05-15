@@ -63,8 +63,7 @@ Power on your Pi By connecting it to your PS4 (which should also be turned on)  
 # SSH into the Pi     
 Not applicable if your Pi has no Wi-Fi Continue over HDMI   
 **How to SSH into the Pi** 
-# Download and install  
-[PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)    
+# Download and install [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)      
 Once installed   
 It will show up on the bottom right  
 ![-](imgs/putty.JPG)    
