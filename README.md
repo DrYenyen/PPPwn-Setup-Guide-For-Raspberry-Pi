@@ -59,8 +59,8 @@ Then wait while the Pi OS is written to the SD Card
 Some drive error windows may show up press on 'Cancel' and 'OK' for any of them  
 ![-](imgs/Dun.JPG)  
 Once the procces is finished some drive error windows may show up press on 'Cancel' and 'OK' for any of them you can then eject the SD Card and plug it into your Pi  
-Power on your Pi and wait a few minutes for initial setup to auto complete(progress can be viewed over HDMI)    
-# SSH into the Pi  
+Power on your Pi By connecting it to your PS4 (which should also be turned on)  and wait a few minutes for initial setup to auto complete(progress can be viewed over HDMI)  
+# SSH into the Pi     
 Not applicable if your Pi has no Wi-Fi Continue over HDMI   
 **How to SSH into the Pi** 
 # Download and install  
@@ -132,8 +132,9 @@ The only other compaible firmware at the time of writing is 9.00 so choose **Y**
 For Pi's with ethernet choose **N**   
 ![-](imgs/Q6.JPG)   
 The Pi will then reboot  
+Connect a Ethernet Cable to the PS4 and Pi   
 # Goldhen on USB 
-Download [Goldhen](https://github.com/GoldHEN/GoldHEN/releases/tag/2.4b17)  
+Download [Goldhen](https://github.com/GoldHEN/GoldHEN/releases/tag/2.4b17) By SiSTR0   
 And put the *goldhen.bin* on a USB formatted in exFAT or FAT32 and plug it into your PS4  
   
   
@@ -144,7 +145,17 @@ On your PS4
 3. Choose **Custom** setup and choose **PPPoE** for IP Address Settings  
 4. Put in *ppp* as **Username** and ***Password***  
 5. Choose **Automatic** for *DNS Settings* and *MTU Settings*
-6. Choose **Do not use** for *Proxy Server**    
+6. Choose **Do not use** for *Proxy Server**   
+7. Stay at the **Test Internet connection** Screen  
+
+# Executing the exploit   
+Connect a Ethernet Cable to the PS4 and Pi  
+On your PS4 press **Test Internet connection**  
+It should find an IP and then the Pi will take over and automatically try to exploit 
+If this fails  
+Restart the PS4 the Pi will shutdown and Restart with it  
+Go to the home menu it should start automatically attempting the exploit  
+
 
  
 
