@@ -60,7 +60,22 @@ Some drive error windows may show up press on 'Cancel' and 'OK' for any of them
 ![-](imgs/Dun.JPG)  
 Once the procces is finished some drive error windows may show up press on 'Cancel' and 'OK' for any of them you can then eject the SD Card and plug it into your Pi  
 Power on your Pi and wait a few minutes for initial setup to auto complete(progress can be viewed over HDMI)    
-# SSH into the Pi 
+# SSH into the Pi  
+Not applicable if your Pi has no Wi-Fi Continue over HDMI  
+How to SSH into the Pi 
+# Download and install  
+[PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)  
+Once installed 
+It will show up on the bottom right 
+![-](imgs/putty.JPG)   
+Right click to open a new session 
+![-](imgs/putty2.JPG)  
+Then Put in your previosly chosen Pi hostname
+![-](imgs/General.JPG)  
+  
+
+
+
 
 
 
