@@ -20,8 +20,8 @@ For this exploit it is best to use **Raspberry Pi OS Lite** foound in **Raspberr
 **Edit settings** Reccomended!   
 ![-](imgs/EditSettings.JPG)  
 **General**  
-![-](imgs/General.JPG)
-**Set hostname**  
+![-](imgs/General.JPG)  
+**Set hostname**    
  This will be what you type in as your SSH hostname 
 **Set usename and password**  
 used to log into the pi :/   
@@ -32,10 +32,17 @@ Pi Model Dependant!!!
 ![-](imgs/PiModels.JPG)   
 This will let you -   
 1. Connect to your Pi via SSH.  
-2. Forward an internet connection to your PS4 removing the need to unplug ethernet or change console internet settings.  
-3. Update the script and payloads.  
-
- 
+2. Forward an internet connection to your PS4 removing the need to unplug ethernet and change console internet settings.  
+3. Update the script and payloads and etc.  
+**Services**  
+![-](imgs/SSH.JPG)  
+Tick    
+Enable SSH  
+Then choose  
+use password authentication  
+**Options**  
+![-](imgs/Opts1.JPG)  
+Untick everything and then press **Save**  
 
 
 
