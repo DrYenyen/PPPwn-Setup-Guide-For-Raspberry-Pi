@@ -5,13 +5,14 @@ This guide goes over how to set up [PI-Pwn](https://github.com/stooged/PI-Pwn?ta
 I will cover the setup for only Raspberry Pi devices.  
 # Downoading and installing Raspberry Pi OS  
 Downlaod and install [Raspberry Pi Imager](https://www.raspberrypi.com/software/)  
-![-](1.JPG)   
+![-](Pi Imager.JPG)   
 **Choose the Pi device you are using**  
-![-](2.JPG)  
-**Choose the Pi OS**
+![-](Pi Device.JPG)  
+**Choose the OS**
   
 For this exploit it is best to use **Raspberry Pi OS Lite** foound in **Raspberry Pi OS (other)**  
-![-](3.JPG)  
-(64bit limited compatablity as shown)
-![-](4.JPG)  
+![-](Pi OS other.JPG)  
+(64-bit ver limited compatablity)
+![-](64-bit.JPG)  
+**Choose storage**  
 
