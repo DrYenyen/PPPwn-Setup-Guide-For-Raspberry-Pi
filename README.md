@@ -79,14 +79,32 @@ And you are now connected to the Pi
 ![-](imgs/ssh4.JPG)    
 # Installing the PI-pwn script by [stooged](https://github.com/stooged/PI-Pwn)  
 One by one run these commands  
-'sudo apt update'  
-'sudo apt install git -y'  
 ```
 sudo apt update
 ```  
 ```
 sudo apt install git -y 
 ```  
+```
+sudo rm -f -r PI-Pwn
+```    
+```
+git clone https://github.com/stooged/PI-Pwn
+```  
+```
+cd PI-Pwn
+```  
+```
+cd /boot/firmware/PPPwn
+```  
+```
+sudo chmod 777 *
+```  
+```
+sudo bash install.sh
+```  
+test
+
 
 
  
