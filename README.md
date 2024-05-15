@@ -132,6 +132,9 @@ The only other compaible firmware at the time of writing is 9.00 so choose **Y**
 For Pi's with ethernet choose **N**   
 ![-](imgs/Q6.JPG)   
 The Pi will then reboot  
+# Goldhen on USB 
+Download [Goldhen](https://github.com/GoldHEN/GoldHEN/releases/tag/2.4b17)  
+And put the *goldhen.bin* on a USB formatted in exFAT or FAT32 and plug it into your PS4  
   
   
 # Setting up the PS4 internet connection  
@@ -141,6 +144,8 @@ On your PS4
 3. Choose **Custom** setup and choose **PPPoE** for IP Address Settings  
 4. Put in *ppp* as **Username** and ***Password***  
 5. Choose **Automatic** for *DNS Settings* and *MTU Settings*
-6. Choose *Do not use* for **Proxy Server**  
+6. Choose **Do not use** for *Proxy Server**    
+
+ 
 
 
