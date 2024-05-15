@@ -133,7 +133,7 @@ For Pi's with ethernet choose **N**
 ![-](imgs/Q6.JPG)   
 The Pi will then reboot  
 Connect a Ethernet Cable to the PS4 and Pi   
-# Goldhen on USB 
+# Putting Goldhen on a USB  
 Download [Goldhen](https://github.com/GoldHEN/GoldHEN/releases/tag/2.4b17) By SiSTR0   
 And put the *goldhen.bin* on a USB formatted in exFAT or FAT32 and plug it into your PS4  
   
@@ -155,8 +155,5 @@ It should find an IP and then the Pi will take over and automatically try to exp
 If this fails  
 Restart the PS4 the Pi will shutdown and Restart with it  
 Go to the home menu it should start automatically attempting the exploit  
-
-
- 
-
-
+# FULL CREDIT TO [stooged](https://github.com/stooged)  
+More info on his GitHub https://github.com/stooged/PI-Pwn  
