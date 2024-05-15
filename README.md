@@ -11,7 +11,7 @@ Downlaod and install [Raspberry Pi Imager](https://www.raspberrypi.com/software/
 **Choose the OS**
   
 For this exploit it is best to use **Raspberry Pi OS Lite** foound in **Raspberry Pi OS (other)**  
-![-](Pi OS other.JPG)  
+![-](PiOSother.JPG)  
 (64-bit ver limited compatablity)
 ![-](64-bit.JPG)  
 **Choose storage**  
