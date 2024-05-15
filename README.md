@@ -20,7 +20,7 @@ For this exploit it is best to use **Raspberry Pi OS Lite** foound in **Raspberr
 **Edit settings** Reccomended!   
 ![-](imgs/EditSettings.JPG)  
 **General**  
-![-](imgs/General.JPG)  
+![-](imgs/General2.JPG)  
 **Set hostname**    
  This will be what you type in as your SSH hostname 
 **Set usename and password**  
