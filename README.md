@@ -16,9 +16,17 @@ For this exploit it is best to use **Raspberry Pi OS Lite** foound in **Raspberr
 ![-](64-bit.JPG)  
 **Choose storage**  
 ![-](ChooseStr.JPG)  
-**OS customisation**
+**OS customisation**  
 **Edit settings** Reccomended!   
 ![-](EditSettings.JPG)  
+**General**
+**Set hostname**  
+ This will be what you type in as your SSH hostname  
+**Set usename and password**  
+used to log into the pi :/   
+Set them as anythign you want just remember them for later  
+ 
+
 
 
  
