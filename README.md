@@ -120,11 +120,17 @@ Are you using a usb to ethernet adapter for the console connection
 If you are using a Pi with no ethernet port choose **Y** if not then **N**
 ![-](imgs/Q2.JPG)  
 3. Are you using a usb to ethernet port(for Pi's with no ethernet port) choose **Y** if you are using a usb o ethernet adapter **N** if you are using ethernet  
-![-](imgs/Q3.JPG)   
+![-](imgs/Q3.JPG)  
+4. Do you want to use the old python version of pppwn, It is much slower  
+Choose **N** :/  
 ![-](imgs/Q4.JPG)   
-![-](imgs/Q5.JPG)   
+5. Would you like to change the firmware version being used, the default is 11.00  
+The only other compaible firmware at the time of writing is 9.00 so type in 9.00 if that is the firmware you are using  
+![-](imgs/Q5.JPG) 
+Would you like to change the pi lan interface, the default is eth0  
+For Pi's with ethernet choose **N**  
 ![-](imgs/Q6.JPG)   
-  
+
 
 
 
