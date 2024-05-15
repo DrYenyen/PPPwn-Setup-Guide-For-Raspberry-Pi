@@ -68,11 +68,20 @@ How to SSH into the Pi
 Once installed   
 It will show up on the bottom right  
 ![-](imgs/putty.JPG)    
-Right click to open a new session  
-![-](imgs/putty2.JPG)  
-Then Put in your previosly chosen Pi hostname    
+Right click and open a new session  
+![-](imgs/putty2.JPG)      
 ![-](imgs/General.JPG)  
-  
+Then Put in your previosly chosen Pi hostname   
+![-](imgs/putty3.JPG)  
+Press Accept on the window that will open then put in the previosly set up username and passsword  
+![-](imgs/ssh2.JPG)  
+And you are now connected to the Pi  
+![-](imgs/ssh3.JPG)  
+# Installing the PI-pwn script by [stooged](https://github.com/stooged/PI-Pwn)  
+
+
+ 
+
 
 
 
