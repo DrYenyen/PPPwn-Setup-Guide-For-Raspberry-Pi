@@ -5,4 +5,4 @@ This guide goes over how to set up [PI-Pwn](https://github.com/stooged/PI-Pwn?ta
 I will cover the setup for only Raspberry Pi devices.  
 # Downoading and installing Raspberry Pi OS  
 Downlaod and install [Raspberry Pi Imager](https://www.raspberrypi.com/software/)  
-![this](1.JPG)
+![-](1.JPG)
