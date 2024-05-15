@@ -136,7 +136,11 @@ The Pi will then reboot
   
 # Setting up the PS4 internet connection  
 On your PS4  
-1. Go to **Settings** and then **Network** 
-2. Select **Set Up Internet connection** and choose Use a **LAN Cable**
-3. Choose Custom setup and choose PPPoE for IP Address Settings
+1. Go to **Settings** and then **Network**   
+2. Select **Set Up Internet connection** and choose Use a **LAN Cable**  
+3. Choose **Custom** setup and choose **PPPoE** for IP Address Settings  
+4. Put in *ppp* as **Username** and ***Password***  
+5. Choose **Automatic** for *DNS Settings* and *MTU Settings*
+6. Choose *Do not use* for **Proxy Server**  
+
 
