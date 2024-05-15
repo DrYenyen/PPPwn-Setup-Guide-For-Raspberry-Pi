@@ -28,7 +28,7 @@ used to log into the pi :/
 Set them as anything you want just remember them for later  
 **Configure wireless LAN**  
 Let the Pi connect to your home Wi-Fi  
-Pi Model Dependant!!!  
+Pi Model Dependent!!!  
 ![-](imgs/PiModels.JPG)   
 This will let you -   
 1. Connect to your Pi via SSH.  
