@@ -18,7 +18,7 @@ For this exploit it is best to use **Raspberry Pi OS Lite** foound in **Raspberr
 ![-](ChooseStr.JPG)  
 **OS customisation**  
 **Edit settings** Reccomended!   
-![-](EditSettings.JPG)  
+![-](imgs/EditSettings.JPG)  
 **General**
 **Set hostname**  
  This will be what you type in as your SSH hostname  
