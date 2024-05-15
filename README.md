@@ -109,15 +109,16 @@ sudo bash install.sh
 The Terminal will then ask you some setup questions  
   
 
-![-](imgs/Q1.JPG)  
+  
 1. Do you want the console to connect to the internet after PPPwn?  
 Only for co,patible Pi's which are connected to your home wifi network  
-Chosing **Y** for this option you will not be turning off the pi after a succsfull pwn run otherwise choose **N**    
-![-](imgs/Q2.JPG)  
+Chosing **Y** for this option you will not be turning off the pi after a succsfull pwn run otherwise choose **N** 
+![-](imgs/Q1.JPG)     
 2. Do you want the pi to shutdown after pwn success    
 Choose yes if you do not want to connect the ps4 to the internet using a wifi compatible pi  
 Are you using a usb to ethernet adapter for the console connection  
-If you are using a Pi with no ethernet port choose Y if not then N
+If you are using a Pi with no ethernet port choose **Y** if not then **N**
+![-](imgs/Q2.JPG)
 ![-](imgs/Q3.JPG)   
 ![-](imgs/Q4.JPG)   
 ![-](imgs/Q5.JPG)   
