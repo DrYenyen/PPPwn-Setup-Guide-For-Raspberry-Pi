@@ -11,7 +11,7 @@ Download and install [Raspberry Pi Imager](https://www.raspberrypi.com/software/
 **Choose the OS**  
 ![-](imgs/ChooseOS.JPG)  
 For this exploit it is best to use **Raspberry Pi OS Lite** foound in **Raspberry Pi OS (other)**  
-![-](PiOSother.JPG)  
+![-](imgs/PiOSother.JPG)  
 (64-bit ver limited compatablity)
 ![-](imgs/64-bit.JPG)  
 **Choose storage**  
@@ -33,7 +33,8 @@ Pi Model Dependant!!!
 This will let you -   
 1. Connect to your Pi via SSH.  
 2. Forward an internet connection to your PS4 removing the need to unplug ethernet and change console internet settings.  
-3. Update the script and payloads and etc.  
+3. Update the script and payloads and etc.    
+**If your pi has no wireless capabilities you will have to use a second display for the instalation part of the script setup after that it will run automatically**   
 **Services**  
 ![-](imgs/SSH.JPG)  
 Tick    
@@ -43,9 +44,3 @@ use password authentication
 **Options**  
 ![-](imgs/Opts1.JPG)  
 Untick everything and then press **Save**  
-
-
-
- 
-
-
