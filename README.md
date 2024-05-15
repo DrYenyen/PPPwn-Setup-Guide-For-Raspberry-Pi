@@ -59,7 +59,7 @@ Then wait while the Pi OS is written to the SD Card
 Some drive error windows may show up press on 'Cancel' and 'OK' for any of them  
 ![-](imgs/Dun.JPG)  
 Once the procces is finished some drive error windows may show up press on 'Cancel' and 'OK' for any of them you can then eject the SD Card and plug it into your Pi  
-Power on your Pi By connecting it to your PS4 (which should also be turned on)  and wait a few minutes for initial setup to auto complete(progress can be viewed over HDMI)  
+Power on your Pi By connecting it to your PS4 (which should also be turned on)  and wait a few minutes for initial setup to auto complete (progress can be viewed over HDMI)  
 # SSH into the Pi     
 Not applicable if your Pi has no Wi-Fi Continue over HDMI   
 **How to SSH into the Pi** 
