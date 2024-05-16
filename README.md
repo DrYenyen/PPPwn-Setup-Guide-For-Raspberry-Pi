@@ -124,7 +124,7 @@ If you choose **N** you **WILL** be asked > 3. Do you want the Pi to shutdown af
 Reccomended to choose **N** if you choose **Y** please remember them for later  
 ![-](imgs/ppp.png)       
 3. Do you want the Pi to shutdown after pwn success    
-Choose **N** if you want to be able to access the webserver  http://pppwn.local [**WEBSERVER PREVIEW**]  for future control of the Pi if not choose **Y**  
+Choose **N** if you want to be able to access the webserver  http://pppwn.local [**WEBSERVER PREVIEW**](https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi?tab=readme-ov-file#webserver-preview)  for future control of the Pi if not choose **Y**    
 ![-](imgs/Q2.JPG)  
 4. Are you using a usb to ethernet adapter    
 For Pi's with no ethernet port choose **Y** or if you are using a Pi with an ethernet port choose **N**  
