@@ -171,7 +171,9 @@ Restart the PS4 the Pi will shutdown and Restart with it
 Go to the home menu it should start automatically attempting the exploit  
 
 # WEBSERVER PREVIEW  
-
+![-](imgs/server1.JPG)   
+![-](imgs/server2.JPG)  
+ 
     
 # FAQ     
 # What is the latest exploitable firmware?    
