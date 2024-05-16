@@ -116,7 +116,7 @@ The Terminal will then ask you some setup questions
   
 1. Do you want the console to connect to the internet after PPPwn?  
 Only for compatible Pi's which are connected to your home Wi-Fi network      
-Chosing **Y** for this option means your PS4 will have internet access and the Pi will not turn off you will be able to access the webhost http://pppwn.local for future control of the Pi after a successful pwn run you will also NOT be asked  >Do you want the Pi to shutdown after pwn success  
+Chosing **Y** for this option means your PS4 will have internet access and the Pi will not turn off you will be able to access the webserver http://pppwn.local for future control of the Pi after a successful pwn run you will also NOT be asked  >Do you want the Pi to shutdown after pwn success  
 Choosing **Y** for this option you will be asked >  2. Do you want to set a PPPoE username and passsord ?  
 If you choose **N** you will be asked > 3. Do you want the Pi to shutdown after pwn success  
 ![-](imgs/Q1.JPG) 
@@ -124,7 +124,7 @@ If you choose **N** you will be asked > 3. Do you want the Pi to shutdown after 
 Reccomended to choose **N** if you choose **Y** please remember them for later  
 ![-](imgs/ppp.png)       
 3. Do you want the Pi to shutdown after pwn success    
-Choose **N** if you want to be able to access the webhost  http://pppwn.local for future control of the Pi if not choose **Y**  
+Choose **N** if you want to be able to access the webserver  http://pppwn.local for future control of the Pi if not choose **Y**  
 ![-](imgs/Q2.JPG)  
 4. Are you using a usb to ethernet adapter    
 For Pi's with no ethernet port choose **Y** or if you are using a Pi with an ethernet port choose **N**  
@@ -157,7 +157,7 @@ On your PS4
 1. Go to **Settings** and then **Network**   
 2. Select **Set Up Internet connection** and choose Use a **LAN Cable**  
 3. Choose **Custom** setup and choose **PPPoE** for IP Address Settings  
-4. Put in *ppp* as **Username** and ***Password***  
+4. Put in *ppp* as **Username** and ***Password***  (Or the previosly chosen Username and Password if defaults were changed)  
 5. Choose **Automatic** for *DNS Settings* and *MTU Settings*
 6. Choose **Do not use** for *Proxy Server*   
 7. Stay at the **Test Internet connection** Screen  
