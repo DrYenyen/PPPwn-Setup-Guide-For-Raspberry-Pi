@@ -189,6 +189,7 @@ If the exploit is stuck and not working use this to restart it
 3 Turns off the Pi but LED lights will still be on due to it being plugged into power if PS4 is turned on or if connected to wall outlet  
 Useful if you are booting the console from rest mode and already have GOLDHEN activated  
 Requires power to be disabled and then enable to boot the Pi again  
+    
 **Interface**  
 Allows you to change the ethernet adapter that is being used  
     
