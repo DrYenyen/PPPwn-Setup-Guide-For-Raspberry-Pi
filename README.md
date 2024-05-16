@@ -173,6 +173,7 @@ Go to the home menu it should start automatically attempting the exploit
 # WEBSERVER PREVIEW    
 ![-](imgs/server1.JPG)     
 **Restart PPPwn**  
+    
 If the exploit is stuck and not working use this to restart it  
   
   
@@ -190,10 +191,11 @@ Useful if you are booting the console from rest mode and already have GOLDHEN ac
 Requires power to be disabled and then enable to boot the Pi again  
 **Interface**  
 Allows you to change the ethernet adapter that is being used  
-**Firmaware Version**  
+    
+**Firmaware Version**     
 Allows you to change between stage2 payload for 9.00 and 11.00 (11.00 Default unless changed during > 6. Would you like to change the firmware version being used, the default is 11.00   
 This allows you to use 1 Pi between consoles with different firmware versions (Only 9.00 and 11.00 supported at this time)  
-**Use usb ethernet adapter**  
+**Use usb ethernet adapter**    
 Allows you to change from using the ethernet port on your Pi to a USB port (Requires usb to ethernet adapter)  
 **Use C++ Version** 
 If during > 5. Do you want to use the old python version of pppwn, It is much slower. You chose **Y** you can now change from Python to C++)
