@@ -196,12 +196,16 @@ Allows you to change the ethernet adapter that is being used
 **Firmaware Version**     
 Allows you to change between stage2 payload for 9.00 and 11.00 (11.00 Default unless changed during > 6. Would you like to change the firmware version being used, the default is 11.00   
 This allows you to use 1 Pi between consoles with different firmware versions (Only 9.00 and 11.00 supported at this time)  
+    
 **Use usb ethernet adapter**    
 Allows you to change from using the ethernet port on your Pi to a USB port (Requires usb to ethernet adapter)  
+  
 **Use C++ Version** 
-If during > 5. Do you want to use the old python version of pppwn, It is much slower. You chose **Y** you can now change from Python to C++)
+If during > 5. Do you want to use the old python version of pppwn, It is much slower. You chose **Y** you can now change from Python to C++)  
+  
 **Enable console internet access**  
-If during > 1. Do you want the console to connect to the internet after PPPwn? You chose **N** you can now change it and give your PS4 internet access through the Pi **Notice** this stops the Pi from Turning off  
+If during > 1. Do you want the console to connect to the internet after PPPwn? You chose **N** you can now change it and give your PS4 internet access through the Pi **Notice** this stops the Pi from Turning off   
+   
 **Ports** 
 No changes are needed   
 AFter you have finished tweaking your settings press **Save** **Excluding Restart PPPwn**, **Reboot Pi** and **Shutdown Pi**  
