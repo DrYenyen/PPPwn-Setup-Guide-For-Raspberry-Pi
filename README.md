@@ -173,7 +173,9 @@ Go to the home menu it should start automatically attempting the exploit
 # WEBSERVER PREVIEW    
 ![-](imgs/server1.JPG)     
 **Restart PPPwn**  
-If the exploit is stuck and not working use this to restart it    
+If the exploit is stuck and not working use this to restart it  
+  
+  
 **Reboot Pi**   
 1. Restarts the Pi    
 2. Resets the PPPwn script   
