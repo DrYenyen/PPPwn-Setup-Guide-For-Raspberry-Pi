@@ -116,7 +116,7 @@ The Terminal will then ask you some setup questions
   
 1. Do you want the console to connect to the internet after PPPwn?  
 Only for compatible Pi's which are connected to your home Wi-Fi network      
-Chosing **Y** for this option means your PS4 will have internet access and the Pi will not turn off you will be able to access the webserver http://pppwn.local WEBSERVER PREVIEW for future control of the Pi after a successful pwn run you will also **NOT** be asked  > 3. Do you want the Pi to shutdown after pwn success  
+Chosing **Y** for this option means your PS4 will have internet access and the Pi will not turn off you will be able to access the webserver http://pppwn.local [**WEBSERVER PREVIEW**](https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi?tab=readme-ov-file#webserver-preview) for future control of the Pi after a successful pwn run you will also **NOT** be asked  > 3. Do you want the Pi to shutdown after pwn success  
 Choosing **Y** for this option you **WILL** be asked >  2. Do you want to set a PPPoE username and passsword ?  
 If you choose **N** you **WILL** be asked > 3. Do you want the Pi to shutdown after pwn success  
 ![-](imgs/Q1.JPG) 
