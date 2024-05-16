@@ -175,7 +175,7 @@ Downgrading can be done under certain conditions
 You can watch a full guide by [MODDED WARFARE](https://www.youtube.com/watch?v=JxeSP1PJtEs&t=764s)      
   
 # GOLDHEN PPPWN support 
-**Current supported versions 
+**Current supported versions** 
 *9.00*  
 *11.00*    
 *10.xx* in development  
