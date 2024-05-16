@@ -117,25 +117,25 @@ The Terminal will then ask you some setup questions
 1. Do you want the console to connect to the internet after PPPwn?  
 Only for compatible Pi's which are connected to your home Wi-Fi network      
 Chosing **Y** for this option means your PS4 will have internet access and the Pi will not turn off you will also be able to access the webhost http://pppwn.local for future control of the Pi after a successful pwn run you will also NOT be asked  >Do you want the Pi to shutdown after pwn success  
-Choosing **Y** for this option you will be asked > Do you want to set a PPPoE username and passsord ?  
-If you choose **N** you will be asked > Do you want the Pi to shutdown after pwn success  
+Choosing **Y** for this option you will be asked >  2. Do you want to set a PPPoE username and passsord ?  
+If you choose **N** you will be asked > 3. Do you want the Pi to shutdown after pwn success  
 ![-](imgs/Q1.JPG) 
 2. Do you want to set a PPPoE username and passsord ?  If you select **N** then the defaults will be used   
 Reccomended to choose **N** if you choose **Y** please remember them for later  
 ![-](imgs/ppp.png)       
-2. Do you want the Pi to shutdown after pwn success    
+3. Do you want the Pi to shutdown after pwn success    
 Choose **N** if you want to be able to access the webhost  http://pppwn.local for future control of the Pi if not choose **Y**  
 ![-](imgs/Q2.JPG)  
-3. Are you using a usb to ethernet adapter    
+4. Are you using a usb to ethernet adapter    
 For Pi's with no ethernet port choose **Y** or if you are using a Pi with an ethernet port choose **N**  
 ![-](imgs/Q3.JPG)  
-4. Do you want to use the old python version of pppwn, It is much slower  
+5. Do you want to use the old python version of pppwn, It is much slower  
 Choose **N** :/  
 ![-](imgs/Q4.JPG)   
-5. Would you like to change the firmware version being used, the default is 11.00  
+6. Would you like to change the firmware version being used, the default is 11.00  
 The only other compaible firmware at the time of writing is 9.00 so choose **Y** and type in 9.00 if that is the firmware you are using or simply choose **N** if you are on 11.00  
 ![-](imgs/Q5.JPG) 
-6. Would you like to change the pi lan interface, the default is eth0 choose **N** to continue or **Y** to change it  
+7. Would you like to change the pi lan interface, the default is eth0 choose **N** to continue or **Y** to change it  
 ![-](imgs/Q6.JPG)   
 The Pi will then reboot  
 Connect a Ethernet Cable to the PS4 and Pi  
