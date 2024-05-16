@@ -136,7 +136,7 @@ The Pi will then reboot
 Connect a Ethernet Cable to the PS4 and Pi  
 # NOTICE!  
 # For future SSH access  
-# After reboot the Pi's previosly set hostname will be changed to *pppwn.local*     
+# After reboot the Pi's previosly set hostname will be changed to *pppwn.local* the username and password will stay the same   
 # Putting Goldhen on a USB  
 Download [Goldhen](https://github.com/GoldHEN/GoldHEN/releases/tag/2.4b17) By SiSTR0   
 And put the *goldhen.bin* on a USB formatted in exFAT or FAT32 and plug it into your PS4.
