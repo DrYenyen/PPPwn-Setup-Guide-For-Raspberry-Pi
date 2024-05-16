@@ -118,8 +118,9 @@ The Terminal will then ask you some setup questions
 Only for compatible Pi's which are connected to your home Wi-Fi network  
 ![-](imgs/Q1.JPG)     
 Chosing **Y** for this option means your PS4 will have internet access and the Pi will not turn off you will also be able to access the webhost http://pppwn.local for future control of the Pi after a successful pwn run you will also NOT be asked  >Do you want the Pi to shutdown after pwn success  
+Choosing **Y** for this option you will be asked > Do you want to set a PPPoE username and passsord ?  
+If you choose **N** you will be asked > Do you want the Pi to shutdown after pwn success     
 ![-](imgs/ppp.png)       
-If you choose **N** you will be asked > Do you want the Pi to shutdown after pwn success      
 2. Do you want the Pi to shutdown after pwn success    
 Choose **N** if you want to be able to access the webhost  http://pppwn.local for future control of the Pi if not choose **Y**  
 ![-](imgs/Q2.JPG)  
