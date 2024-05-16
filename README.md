@@ -179,7 +179,7 @@ If the exploit is stuck and not working use this to restart it
 **Reboot Pi**   
 1. Restarts the Pi    
 2. Resets the PPPwn script   
-3. Resets ps4 internet connection if you chose **Y** on > 1. Do you want the console to connect to the internet after PPPwn? 
+3. Resets ps4 internet connection if you chose **Y** on > 1. Do you want the console to connect to the internet after PPPwn?   
 **Shutdown Pi**    
 1. Stops the exploit 
 2. Stops intenet to the PS4 if you chose **Y** on > 1. Do you want the console to connect to the internet after PPPwn?   
