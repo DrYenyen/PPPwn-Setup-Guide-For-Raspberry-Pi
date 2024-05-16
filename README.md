@@ -119,10 +119,10 @@ Only for compatible Pi's which are connected to your home Wi-Fi network
 Chosing **Y** for this option means your PS4 will have internet access and the Pi will not turning off you will also be able to access the webhost http://pppwn.local for future control of the Pi after a succsfull pwn run if not then choose **N**   
 ![-](imgs/Q1.JPG)     
 2. Do you want the Pi to shutdown after pwn success    
-Choose **N** if you want to be able to access the webhost  http://pppwn.local for future control of the Pi if not choose **N**   
+Choose **N** if you want to be able to access the webhost  http://pppwn.local for future control of the Pi if not choose **Y** (Choosing **Y** here means your PS4 will not have internet access and you will have to change your internet settings)    
 ![-](imgs/Q2.JPG)  
 3. Are you using a usb to ethernet adapter    
-For Pi's with no ethernet port choose **Y** or **N** if you are using ethernet 
+For Pi's with no ethernet port choose **Y** or if you are using a Pi with an ethernet port choose **N**  
 ![-](imgs/Q3.JPG)  
 4. Do you want to use the old python version of pppwn, It is much slower  
 Choose **N** :/  
