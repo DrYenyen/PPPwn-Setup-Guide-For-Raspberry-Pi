@@ -187,7 +187,7 @@ If the exploit is stuck and not working use this to restart it
 1. Stops the exploit 
 2. Stops intenet to the PS4 if you chose **Y** on > 1. Do you want the console to connect to the internet after PPPwn?   
 3. Turns off the Pi but LED lights will still be on due to it being plugged into power if PS4 is turned on or if connected to wall outlet    
-4. Useful if you are booting the console from rest mode and already have GOLDHEN activated  
+4. Useful if you are booting the console from rest mode and already have GOLDHEN activated  simply turns the Pi off  
 5. Requires power to be disabled and then enable to boot the Pi again    
     
 **Interface**  
