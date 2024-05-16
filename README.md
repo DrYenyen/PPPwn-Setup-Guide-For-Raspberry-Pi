@@ -24,7 +24,7 @@ For this exploit it is best to use **Raspberry Pi OS Lite** found in **Raspberry
 **Set hostname**      
  This will be what you type in as your SSH hostname   
 **Set usename and password**  
-used to log into the pi :/   
+Used to log into the pi :/   
 Set them as anything you want just remember them for later  
 **Configure wireless LAN**  
 Let the Pi connect to your home Wi-Fi  
@@ -45,7 +45,7 @@ It should auto to your correct region and kb layout if not set it manually
 Tick    
 Enable SSH  
 Then choose  
-use password authentication  
+Use password authentication  
 **Options**  
 ![-](imgs/Opts1.JPG)  
 Untick everything and then press **Save**   
@@ -59,7 +59,7 @@ Then wait while the Pi OS is written to the SD Card
 Some drive error windows may show up press on 'Cancel' and 'OK' for any of them  
 ![-](imgs/Dun.JPG)  
 Once the procces is finished some drive error windows may show up press on 'Cancel' and 'OK' for any of them you can then eject the SD Card and plug it into your Pi  
-Power on your Pi By connecting it to your PS4 (which should also be turned on)  and wait a few minutes for initial setup to auto complete (progress can be viewed over HDMI)  
+Power on your Pi By connecting it to your PS4 (which should also be turned on) and wait a few minutes for initial setup to auto complete (progress can be viewed over HDMI)    
 # SSH into the Pi     
 Not applicable if your Pi has no Wi-Fi Continue over HDMI   
 **How to SSH into the Pi** 
@@ -127,8 +127,7 @@ Choose **N** :/
 5. Would you like to change the firmware version being used, the default is 11.00  
 The only other compaible firmware at the time of writing is 9.00 so choose **Y** and type in 9.00 if that is the firmware you are using or simply choose **N** if you are on 11.00  
 ![-](imgs/Q5.JPG) 
-6. Would you like to change the pi lan interface, the default is eth0    
-For Pi's with ethernet choose **N**   
+6. Would you like to change the pi lan interface, the default is eth0 choose **N** to continue or **Y** to change it  
 ![-](imgs/Q6.JPG)   
 The Pi will then reboot  
 Connect a Ethernet Cable to the PS4 and Pi   
