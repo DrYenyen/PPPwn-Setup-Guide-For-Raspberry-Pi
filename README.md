@@ -208,7 +208,9 @@ If during > 1. Do you want the console to connect to the internet after PPPwn? Y
    
 **Ports** 
 No changes are needed   
-After you have finished tweaking your settings press **Save** **Excluding Restart PPPwn**, **Reboot Pi** and **Shutdown Pi**  
+  
+  
+After you have finished tweaking your settings press **Save** *Excluding* **Restart PPPwn**, **Reboot Pi** and **Shutdown Pi**  
     
 # FAQ     
 # What is the latest exploitable firmware?    
