@@ -120,7 +120,7 @@ Chosing **Y** for this option means your PS4 will have internet access and the P
 If you choose **N** you will be asked > Do you want the Pi to shutdown after pwn success  
 ![-](imgs/Q1.JPG)     
 2. Do you want the Pi to shutdown after pwn success    
-Choose **N** if you want to be able to access the webhost  http://pppwn.local for future control of the Pi if not choose **Y** (Choosing **Y** here means your PS4 will not have internet access and you will have to change your internet settings)    
+Choose **N** if you want to be able to access the webhost  http://pppwn.local for future control of the Pi if not choose **Y**  
 ![-](imgs/Q2.JPG)  
 3. Are you using a usb to ethernet adapter    
 For Pi's with no ethernet port choose **Y** or if you are using a Pi with an ethernet port choose **N**  
