@@ -167,7 +167,7 @@ Go to the home menu it should start automatically attempting the exploit
 **11.00**    
 Will it work on *11.02*? **Nope**  
 What changed in *11.02* to make it stop working? **The exploit got patched ;)**    
-**Can i downgrade if i am on *11.02-11.50*?**    
+# Can i downgrade if i am on *11.02-11.50*?   
 Downgrading can be done under certain conditions      
 1. You have not initialised the console on the current firmware    
 2. You have not reinstalled system firmware to fix Hard Drive issues    
