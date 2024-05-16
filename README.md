@@ -185,6 +185,6 @@ Downgrading can be done under certain conditions
 # Can i do it over Wi-Fi instead of using an ethernet cable  
 **Nope**   
   
-# FULL CREDIT TO [stooged](https://github.com/stooged)  
+# FULL CREDIT TO [stooged](https://github.com/stooged)    
 More info on his GitHub https://github.com/stooged/PI-Pwn  
 
