@@ -104,7 +104,12 @@ sudo chmod 777 *
 ```  
 ```
 sudo bash install.sh
-```  
+```
+
+Or use this one line install script provided by [FalsePhilosopher](https://github.com/FalsePhilosopher)
+```
+sudo wget -q -O - https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi/raw/main/install.sh | bash
+```
 The Terminal will then ask you some setup questions  
   
 
