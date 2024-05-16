@@ -161,18 +161,20 @@ It should find an IP and then the Pi will take over and automatically try to exp
 If this fails  
 Restart the PS4 the Pi will shutdown and Restart with it  
 Go to the home menu it should start automatically attempting the exploit  
-# FULL CREDIT TO [stooged](https://github.com/stooged)  
-More info on his GitHub https://github.com/stooged/PI-Pwn    
     
-# FAQ   
-**Can i downgrade if i am on 11.02-11.50?**  
+# FAQ     
+# What is the latest exploitable firmware?    
+**11.00**  
+Will it work on *11.02*? **Nope**
+What changed in *11.02* to make it stop working? **The exploit got patched ;)**  
+**Can i downgrade if i am on *11.02-11.50*?**  
 Downgrading can be done under certain conditions    
 1. You have not initialised the console on the current firmware  
 2. You have not reinstalled system firmware to fix Hard Drive issues  
 3. You have not replaced your Hard Drive and reinstalled the current system firmware  
 4. You have not downloaded the network update to 100%    
 5. Your Syscon must be A0X-COLX (X=Digits on your Syscon)    
-You can watch a full guide by [MODDED WARFARE](https://www.youtube.com/watch?v=JxeSP1PJtEs&t=764s)      
+**You can watch a full guide by [MODDED WARFARE](https://www.youtube.com/watch?v=JxeSP1PJtEs&t=764s)**     
   
 # GOLDHEN PPPWN support 
 **Current supported versions**   
@@ -180,13 +182,9 @@ You can watch a full guide by [MODDED WARFARE](https://www.youtube.com/watch?v=J
 *11.00*    
 *10.xx* in development  
   
-#Can i do it over Wi-Fi instead of using an ethernet cable 
+# Can i do it over Wi-Fi instead of using an ethernet cable  
 **Nope**   
-
-
-
-   
-
-
-
+  
+# FULL CREDIT TO [stooged](https://github.com/stooged)  
+More info on his GitHub https://github.com/stooged/PI-Pwn  
 
