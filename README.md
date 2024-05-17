@@ -263,7 +263,7 @@ sudo wget -q -O - https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi
 ```  
 The Terminal/CMD/Putty will ask  
 Config found, Do you want to change stored settings **Y** or **N**  
-Choose **Y** if you want to change previosly applied settings during  
+Choose **Y** if you want to change previosly applied settings during  [The Terminal will then ask you some setup questions](https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi#the-terminal-will-then-ask-you-some-setup-questions)  
     
 # FAQ     
 # What is the latest exploitable firmware?     
