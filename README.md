@@ -262,10 +262,7 @@ Or use this one line update script provided by [FalsePhilosopher](https://github
 ```
 sudo wget -q -O - https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi/raw/main/update.sh | bash && cd /boot/firmware/PPPwn && ./install.sh
 ```  
-Followed by   
-```
-sudo bash install.sh
-```     
+  
 The Terminal/CMD/Putty will ask  
 Config found, Do you want to change stored settings **Y** or **N**   
 ![-](imgs/update.JPG)  
