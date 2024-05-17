@@ -265,7 +265,7 @@ The Terminal/CMD/Putty will ask
 Config found, Do you want to change stored settings **Y** or **N**   
 ![-](imgs/update.JPG)  
 Choose **Y** if you want to change previosly applied settings during  [The Terminal will then ask you some setup questions](https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi#the-terminal-will-then-ask-you-some-setup-questions) or choose **N** if your current settings are satisfactory   
-    
+Alternatively you can power off the Pi plug the SD Card Download the latest [PI-Pwn](https://github.com/stooged/PI-Pwn?tab=readme-ov-file#pi-pwn) files and copy the *PPPwn* folder found inside *PI-Pwn-main* onto your SD Card and overwrite the old files  
 # FAQ     
 # What is the latest exploitable firmware?     
 **11.00**    
