@@ -110,7 +110,7 @@ Or use this one line install script provided by [FalsePhilosopher](https://githu
 ```
 sudo wget -q -O - https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi/raw/main/install.sh | bash
 ```
-The Terminal will then ask you some setup questions  
+# The Terminal will then ask you some setup questions  
   
 
   
@@ -219,9 +219,54 @@ No changes are needed
   
   
 After you have finished tweaking your settings press **Save** *Excluding* **Load Payloads**, **Restart PPPwn**, **Reboot Pi** and **Shutdown Pi**  
+  
+# Updating [PI-Pwn](https://github.com/stooged/PI-Pwn?tab=readme-ov-file#pi-pwn)  
+**Updating via SHH or Manually through the Pi**
+The Pi needs to be powered on  
+Write in or copy and paste the following commands    
+```
+sudo apt update
+```  
+```
+sudo apt install git -y 
+```  
+```
+sudo rm -f -r PI-Pwn 
+``` 
+```
+sudo systemctl stop pipwn
+```    
+```
+git clone https://github.com/stooged/PI-Pwn
+```  
+```
+sudo mkdir /boot/firmware/
+```  
+```
+cd PI-Pwn
+```  
+```
+sudo cp -r PPPwn /boot/firmware/
+```  
+```
+cd /boot/firmware/PPPwn
+```  
+```
+sudo chmod 777 *
+```  
+```
+sudo bash install.sh
+``` 
+Or use this one line update script
+```
+sudo wget -q -O - https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi/raw/main/update.sh | bash
+```  
+The Terminal/CMD/Putty will ask  
+Config found, Do you want to change stored settings **Y** or **N**  
+Choose **Y** if you want to change previosly applied settings during  
     
 # FAQ     
-# What is the latest exploitable firmware?    
+# What is the latest exploitable firmware?     
 **11.00**    
 Will it work on *11.02*? **Nope**  
 What changed in *11.02* to make it stop working? **The exploit got patched ;)**    
