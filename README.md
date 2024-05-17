@@ -77,7 +77,7 @@ Press Accept on the window that will open then put in the previosly set up usern
 And you are now connected to the Pi    
 ![-](imgs/ssh4.JPG)    
 # Installing the PI-pwn script by [stooged](https://github.com/stooged/PI-Pwn)  
-One by one copy and run these commands (paste into ssh termianl with right click) 
+One by one copy and run these commands (paste into ssh terminal with right click)   
 ```
 sudo apt update
 ```  
@@ -176,7 +176,7 @@ Go to the home menu it should start automatically attempting the exploit
 # WEBSERVER PREVIEW    
 ![-](imgs/web1.JPG)   
 **Load Payloads**    
-Allows you to put payloads onto a usb inside a folder called *paylaods* and plug it into the Pi to load them  
+Allows you to put payloads onto a usb inside a folder called *payloads* and plug it into the Pi to load them  
 Goldhen binserver must be enabled  
 ![-](imgs/web2.JPG)  
          
