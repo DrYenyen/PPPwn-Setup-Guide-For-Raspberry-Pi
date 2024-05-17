@@ -9,3 +9,4 @@ cd PI-Pwn
 sudo cp -r PPPwn /boot/firmware/
 cd /boot/firmware/PPPwn
 sudo chmod 777 *
+sudo bash && ./install.s
