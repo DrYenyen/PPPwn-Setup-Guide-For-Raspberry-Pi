@@ -140,11 +140,11 @@ The only other compaible firmware at the time of writing is 9.00 so choose **Y**
 **If you are using a Pi 4 or 5**
 You will be asked       
 8. Do you want the Pi to act as a virtual drive. Meaning you dont need an extra [USB drive](https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi#putting-goldhen-on-a-usb)         
-The Pi will then reboot    
-Connect a Ethernet Cable to the PS4 and Pi    
-# NOTICE!    
-# For future SSH access    
-# After reboot the Pi's previosly set hostname will be changed to *pppwn.local* the username and password will stay the same       
+The Pi will then reboot  
+Connect a Ethernet Cable to the PS4 and Pi  
+# NOTICE!  
+# For future SSH access  
+# After reboot the Pi's previosly set hostname will be changed to *pppwn.local* the username and password will stay the same    
 # Putting Goldhen on a USB      
 Download [Goldhen](https://github.com/GoldHEN/GoldHEN/releases/tag/2.4b17) By SiSTR0  skip if you have a Pi 4 or 5 and chose **Y** to have it act as a virtual drive (Pi has to be connected to PS4 USB port   
 And put the *goldhen.bin* on a USB formatted in exFAT or FAT32 and plug it into your PS4.
