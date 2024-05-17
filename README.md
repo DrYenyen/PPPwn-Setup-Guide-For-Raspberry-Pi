@@ -138,7 +138,7 @@ The only other compaible firmware at the time of writing is 9.00 so choose **Y**
 7. Would you like to change the pi lan interface, the default is eth0 choose **N** to continue or **Y** to change it  
 ![-](imgs/Q6.JPG)   
 **If you are using a Pi 4 or 5**
-You will be asked     
+You will be asked       
 8. Do you want the Pi to act as a virtual drive. Meaning you dont need an extra [USB drive](https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi#putting-goldhen-on-a-usb)         
 The Pi will then reboot    
 Connect a Ethernet Cable to the PS4 and Pi    
