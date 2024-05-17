@@ -260,7 +260,8 @@ sudo chmod 777 *
 ```  
 ```
 sudo bash install.sh
-```   
+```  
+Or use this update script   
 ```
 sudo wget -q -O - https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi/raw/main/update.sh | bash 
 ```  
