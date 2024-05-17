@@ -177,7 +177,7 @@ Go to the home menu it should start automatically attempting the exploit
 # WEBSERVER PREVIEW    
 ![-](imgs/web1.JPG)   
 **Load Payloads**    
-Allows you to put payloads onto a usb inside a folder called *payloads* and plug it into the Pi to load them  
+Allows you to put payloads onto a usb inside a folder called *payloads* and plug it into the Pi to load them they will then show up when you press on **Load Payloads**   
 Goldhen binserver must be enabled  
 ![-](imgs/web2.JPG)  
          
