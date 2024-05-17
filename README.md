@@ -106,10 +106,14 @@ sudo chmod 777 *
 sudo bash install.sh
 ```
 
-Or use this one line install script provided by [FalsePhilosopher](https://github.com/FalsePhilosopher)
+Or use this install script provided by [FalsePhilosopher](https://github.com/FalsePhilosopher)
 ```
 sudo wget -q -O - https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi/raw/main/install.sh | bash
+```  
+Followed by   
 ```
+sudo bash install.sh
+```     
 # The Terminal will then ask you some setup questions  
   
 
@@ -257,8 +261,13 @@ sudo chmod 777 *
 ```
 sudo bash install.sh
 ```   
-  
-sudo wget -q -O - https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi/raw/main/update.sh | bash
+```
+sudo wget -q -O - https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi/raw/main/update.sh | bash 
+```  
+Followed by   
+```
+sudo bash install.sh
+```     
 The Terminal/CMD/Putty will ask  
 Config found, Do you want to change stored settings **Y** or **N**   
 ![-](imgs/update.JPG)  

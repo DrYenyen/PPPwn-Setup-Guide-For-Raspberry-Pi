@@ -7,4 +7,3 @@ cd PI-Pwn
 cp -r PPPwn /boot/firmware/
 cd /boot/firmware/PPPwn
 chmod 777 *
-bash install.sh
