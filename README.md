@@ -176,8 +176,10 @@ Go to the home menu it should start automatically attempting the exploit
 # WEBSERVER PREVIEW    
 ![-](imgs/web1.JPG)   
 **Load Payloads**    
-Allows you to put payloads onto a usb and plug it into the Pi to load them  
-![-](imgs/web2.JPG)        
+Allows you to put payloads onto a usb inside a folder called *paylaods* and plug it into the Pi to load them  
+Goldhen binserver must be enabled  
+![-](imgs/web2.JPG)  
+         
 **Restart PPPwn**    
     
 If the exploit is stuck and not working use this to restart it  
