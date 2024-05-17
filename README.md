@@ -262,8 +262,9 @@ Or use this one line update script
 sudo wget -q -O - https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi/raw/main/update.sh | bash
 ```  
 The Terminal/CMD/Putty will ask  
-Config found, Do you want to change stored settings **Y** or **N**  
-Choose **Y** if you want to change previosly applied settings during  [The Terminal will then ask you some setup questions](https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi#the-terminal-will-then-ask-you-some-setup-questions)  
+Config found, Do you want to change stored settings **Y** or **N**   
+![-](imgs/update.JPG)  
+Choose **Y** if you want to change previosly applied settings during  [The Terminal will then ask you some setup questions](https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi#the-terminal-will-then-ask-you-some-setup-questions) or choose **N** if your current settings are satisfactory   
     
 # FAQ     
 # What is the latest exploitable firmware?     
