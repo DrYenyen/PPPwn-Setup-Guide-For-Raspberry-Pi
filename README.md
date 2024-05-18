@@ -123,26 +123,26 @@ Chosing **Y** for this option means your PS4 will have internet access and the P
 Choosing **Y** for this option you **WILL** be asked >  2. Do you want to set a PPPoE username and passsword ?  
 If you choose **N** you **WILL** be asked > 3. Do you want the Pi to shutdown after pwn success  
 ![-](imgs/Q1.JPG) 
-2. Do you want to set a PPPoE username and passsord ?  If you select **N** then the defaults will be used   
+3. Do you want to set a PPPoE username and passsord ?  If you select **N** then the defaults will be used   
 Reccomended to choose **N** if you choose **Y** please remember them for later  
 ![-](imgs/ppp.png)       
-3. Do you want the Pi to shutdown after pwn success    
+4. Do you want the Pi to shutdown after pwn success    
 Choose **N** if you want to be able to access the webserver  http://pppwn.local [**WEBSERVER PREVIEW**](https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi?tab=readme-ov-file#webserver-preview)  for future control of the Pi if not choose **Y**    
 ![-](imgs/Q2.JPG)  
-4. Are you using a usb to ethernet adapter    
+5. Are you using a usb to ethernet adapter    
 For Pi's with no ethernet port choose **Y** or if you are using a Pi with an ethernet port choose **N**  
 ![-](imgs/Q3.JPG)  
-5. Do you want to use the old python version of pppwn, It is much slower  
+6. Do you want to use the old python version of pppwn, It is much slower  (may be obsolete)  
 Choose **N** :/  
 ![-](imgs/Q4.JPG)   
-6. Would you like to change the firmware version being used, the default is 11.00  
+7. Would you like to change the firmware version being used, the default is 11.00  
 The only other compaible firmware at the time of writing is 9.00 so choose **Y** and type in 9.00 if that is the firmware you are using or simply choose **N** if you are on 11.00  
 ![-](imgs/Q5.JPG) 
-7. Would you like to change the pi lan interface, the default is eth0 choose **N** to continue or **Y** to change it  
+8. Would you like to change the pi lan interface, the default is eth0 choose **N** to continue or **Y** to change it  
 ![-](imgs/Q6.JPG)     
 **If you are using a Pi 4 or 5**  
 You will be asked       
-8. Do you want the Pi to act as a virtual drive. Meaning you dont need an extra [USB drive](https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi#putting-goldhen-on-a-usb)  
+9. Do you want the Pi to act as a virtual drive. Meaning you dont need an extra [USB drive](https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi#putting-goldhen-on-a-usb)  (may be obsolete)  
 The Pi will then reboot  
 Connect a Ethernet Cable to the PS4 and Pi  
 # NOTICE!  
