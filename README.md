@@ -177,7 +177,7 @@ Restart the PS4 the Pi will shutdown and Restart with it
 Go to the home menu it should start automatically attempting the exploit  
 
 # WEBSERVER PREVIEW    
-![-](imgs/newweb.JPG)   
+![-](imgs/newwebser.JPG)   
 **Load Payloads**    
 Allows you to put payloads onto a usb inside a folder called *payloads* and plug it into the Pi to load them they will then show up when you press on **Load Payloads**   
 Goldhen binserver must be enabled  
@@ -212,7 +212,7 @@ This allows you to use 1 Pi between consoles with different firmware versions (O
 **Use usb ethernet adapter**    
 Allows you to change from using the ethernet port on your Pi to a USB port (Requires usb to ethernet adapter)  
   
-**Use C++ Version** 
+**Use C++ Version**  *obsolete*
 If during > 5. Do you want to use the old python version of pppwn, It is much slower. You chose **Y** you can now change from Python to C++)   
   
 **Detect Console Shutdown and restart PPPwn**  
@@ -222,7 +222,7 @@ Restarts the PPPwn script after the console has been turned off (only works if t
 If during > 1. Do you want the console to connect to the internet after PPPwn? You chose **N** you can now change it and give your PS4 internet access through the Pi **Notice** this stops the Pi from Turning off   
   
 **Enable USB Drive**  
-Enables either the plugged in or virtual USB drive for Pi 4 and above  
+Enables either the plugged in physical or virtual USB drive for Pi 4 and above  
 *TBC*      
   
 **Ports** 
