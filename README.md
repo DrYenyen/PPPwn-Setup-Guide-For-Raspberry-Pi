@@ -214,6 +214,7 @@ Allows you to change from using the ethernet port on your Pi to a USB port (Requ
 If during > 5. Do you want to use the old python version of pppwn, It is much slower. You chose **Y** you can now change from Python to C++)   
   
 **Detect Console Shutdown and restart PPPwn**  
+Restarts the PPPwn script after the console has been turned off (only works if the Pi is set to always be turned on)  
   
 **Enable console internet access**  
 If during > 1. Do you want the console to connect to the internet after PPPwn? You chose **N** you can now change it and give your PS4 internet access through the Pi **Notice** this stops the Pi from Turning off   
