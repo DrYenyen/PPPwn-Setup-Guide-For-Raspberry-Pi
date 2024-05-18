@@ -219,7 +219,9 @@ Restarts the PPPwn script after the console has been turned off (only works if t
 **Enable console internet access**  
 If during > 1. Do you want the console to connect to the internet after PPPwn? You chose **N** you can now change it and give your PS4 internet access through the Pi **Notice** this stops the Pi from Turning off   
   
-**Enable USB Drive**      
+**Enable USB Drive**  
+Enables either the plugged in or virtual USB drive for Pi 4 and above  
+*TBC*      
   
 **Ports** 
 No changes are needed   
