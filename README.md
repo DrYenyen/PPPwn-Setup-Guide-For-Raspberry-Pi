@@ -291,7 +291,28 @@ Downgrading can be done under certain conditions
 *10.xx* in development  
   
 # Can i do it over Wi-Fi instead of using an ethernet cable  
-**Nope**   
+**Nope**     
+  
+# Turning off LED's   
+Put the sd card into your pc and find config.txt  
+  
+Add these lines to the bottom for the leds you want to disable:  
+  
+Disable Power LED (Red)  
+  
+dtparam=pwr_led_activelow=off  
+  
+Disable Activity LED (Green)  
+  
+dtparam=act_led_trigger=none  
+dtparam=act_led_activelow=off  
+  
+Disable LAN LEDs  
+  
+dtparam=eth_led0=14  
+dtparam=eth_led1=14    
+  
+Credit to *MiTo*
   
 # FULL CREDIT TO [stooged](https://github.com/stooged)    
 More info on his GitHub https://github.com/stooged/PI-Pwn  
