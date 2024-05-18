@@ -225,7 +225,7 @@ If during > 1. Do you want the console to connect to the internet after PPPwn? Y
 Enables either the plugged in physical or virtual USB drive for Pi 4 and above  
 *TBC*      
   
-**Ports** 
+**Ports**   
 No changes are needed   
   
   
