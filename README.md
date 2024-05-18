@@ -211,11 +211,15 @@ This allows you to use 1 Pi between consoles with different firmware versions (O
 Allows you to change from using the ethernet port on your Pi to a USB port (Requires usb to ethernet adapter)  
   
 **Use C++ Version** 
-If during > 5. Do you want to use the old python version of pppwn, It is much slower. You chose **Y** you can now change from Python to C++)  
+If during > 5. Do you want to use the old python version of pppwn, It is much slower. You chose **Y** you can now change from Python to C++)   
+  
+**Detect Console Shutdown and restart PPPwn**  
   
 **Enable console internet access**  
 If during > 1. Do you want the console to connect to the internet after PPPwn? You chose **N** you can now change it and give your PS4 internet access through the Pi **Notice** this stops the Pi from Turning off   
-   
+  
+**Enable USB Drive**      
+  
 **Ports** 
 No changes are needed   
   
