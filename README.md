@@ -212,7 +212,7 @@ This allows you to use 1 Pi between consoles with different firmware versions (O
 **Use usb ethernet adapter**    
 Allows you to change from using the ethernet port on your Pi to a USB port (Requires usb to ethernet adapter)  
   
-**Use C++ Version**  *obsolete*
+**Use C++ Version**  *obsolete*  
 If during > 5. Do you want to use the old python version of pppwn, It is much slower. You chose **Y** you can now change from Python to C++)   
   
 **Detect Console Shutdown and restart PPPwn**  
