@@ -313,7 +313,7 @@ Disable LAN LEDs
 dtparam=eth_led0=14  
 dtparam=eth_led1=14    
   
-Credit to *MiTo*
+Credit to *stooged*
   
 # FULL CREDIT TO [stooged](https://github.com/stooged)    
 More info on his GitHub https://github.com/stooged/PI-Pwn  
