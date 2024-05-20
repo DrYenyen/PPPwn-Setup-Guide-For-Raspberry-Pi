@@ -293,7 +293,11 @@ Downgrading can be done under certain conditions
 4. You have not downloaded the network update to 100%    
 5. Your Syscon must be A0X-COLX (X=Digits on your Syscon)    
 **You can watch a full guide by [MODDED WARFARE](https://www.youtube.com/watch?v=JxeSP1PJtEs&t=764s)**     
-  
+
+# pppwn.local
+Q: Why can't I connect to pppwn.local on my phone?  
+A: Because you're not on the same network as the raspberry pi, turn off your VPN and connect to wifi.
+
 # GOLDHEN PPPWN support 
 **Current supported versions**   
 *9.00*  
