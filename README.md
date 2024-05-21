@@ -136,7 +136,7 @@ For Pi's with no ethernet port choose **Y** or if you are using a Pi with an eth
 Choose **N** :/  
 ![-](imgs/Q4.JPG)   
 7. Would you like to change the firmware version being used, the default is 11.00  
-The only other compaible firmware at the time of writing is 9.00 so choose **Y** and type in 9.00 if that is the firmware you are using or simply choose **N** if you are on 11.00  
+The only other compaible firmware at the time of writing are *9.00*, *10.00* and *10.01* so choose **Y** and type in 9.00 if that is the firmware you are using or simply choose **N** if you are on 11.00  
 ![-](imgs/Q5.JPG) 
 8. Would you like to change the pi lan interface, the default is eth0 choose **N** to continue or **Y** to change it  
 ![-](imgs/Q6.JPG)     
@@ -298,7 +298,7 @@ Downgrading can be done under certain conditions
 **Current supported versions**   
 *9.00*  
 *11.00*    
-*10.xx* in development  
+*10.00 and 10.01*  
   
 # Can i do it over Wi-Fi instead of using an ethernet cable  
 **Nope**     
