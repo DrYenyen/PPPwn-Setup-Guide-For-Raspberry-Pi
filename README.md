@@ -132,11 +132,8 @@ Choose **N** if you want to be able to access the webserver  http://pppwn.local 
 5. Are you using a usb to ethernet adapter    
 For Pi's with no ethernet port choose **Y** or if you are using a Pi with an ethernet port choose **N**  
 ![-](imgs/Q3.JPG)  
-6. Do you want to use the old python version of pppwn, It is much slower  (may be obsolete)  
-Choose **N** :/  
-![-](imgs/Q4.JPG)   
 7. Would you like to change the firmware version being used, the default is 11.00  
-The only other compaible firmware at the time of writing are *9.00*, *10.00* and *10.01* so choose **Y** and type in 9.00 if that is the firmware you are using or simply choose **N** if you are on 11.00  
+The only other compaible firmwares at the time of writing are *9.00*, *10.00* and *10.01* so choose **Y** and type in 9.00 if that is the firmware you are using or simply choose **N** if you are on 11.00  
 ![-](imgs/Q5.JPG) 
 8. Would you like to change the pi lan interface, the default is eth0 choose **N** to continue or **Y** to change it  
 ![-](imgs/Q6.JPG)     
