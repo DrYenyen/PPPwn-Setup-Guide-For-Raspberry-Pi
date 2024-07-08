@@ -138,6 +138,13 @@ NT-style printing service (SPOOLSS)
 NTLM    
 Active Directory Logon using modified versions of Kerberos and LDAP    
 DFS server     
+Additionally  
+If you setup samba to access the pppwn folder for the exploit files you can access the drive on...
+\\pppwn.local\pppwn
+or
+smb:\\pppwn.local\pppwn
+
+The share has no user/password required to access it.    
 5.  Do you want to use the old python version of pppwn, it is much slower (Y|N)?: 
 This will most likely only show if you initially chose to enable it at this point choose if you want to actively use it  (here i chose not to)   
 ![-](imgs/python2.JPG)    
@@ -257,9 +264,11 @@ Allows you to change from using the ethernet port on your Pi to a USB port (Requ
 **Detect Console Shutdown and restart PPPwn**  
 Restarts the PPPwn script after the console has been turned off (only works if the Pi is set to always be turned on)  
   
-**Enable console internet access**  
-If during > 1. Do you want the console to connect to the internet after PPPwn? You chose **N** you can now change it and give your PS4 internet access through the Pi **Notice** this stops the Pi from Turning off         
-After you have finished tweaking your settings press **Save** *Excluding* **Load Payloads**, **Restart PPPwn**, **Reboot Pi** and **Shutdown Pi**  
+**Enable console internet access**     
+Gives the console access to the internet needed for ftp,samba and etc   
+
+**Disable DNS blocker**       
+I believe 
   
 # Updating [PI-Pwn](https://github.com/stooged/PI-Pwn?tab=readme-ov-file#pi-pwn)  
 **Updating via SHH or Manually through the Pi**
