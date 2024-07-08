@@ -157,7 +157,7 @@ For Pi's with no ethernet port choose **Y** or if you are using a Pi with an eth
 11. Do you want pppwn to run in verbose mode    
 (Y|N)?:         
 What is verbose ?      
-From  [Wikipedia](https://en.wikipedia.org/wiki/Verbose_mode) 
+From  [Wikipedia](https://en.wikipedia.org/wiki/Verbose_mode)     
 In computing, Verbose mode is an option available in many computer operating systems and programming languages that provides additional details as to what the computer is doing and what drivers and software it is loading during startup or in programming it would produce detailed output for diagnostic purposes thus makes a program easier to debug.               
 ![-](imgs/verbose.JPG)         
 Here i chose y.    
@@ -174,10 +174,10 @@ The only other compaible firmwares at the time of writing are 10.01, 10.00, 9.60
 ![-](imgs/ipv6.JPG)    
 It is highly reccomended to choose N here when we worked on the [fix for troubled consoles](https://github.com/TheOfficialFloW/PPPwn/pull/66)     
 We made sure it works with many consoles good and troubled       
-16. Would you like to change the hostname, the default is pppwn   
+16. Would you like to change the hostname, the default is pppwn       
 (Y|N)?:       	
-![-](imgs/host.JPG)         
-The Pi will then reboot    
+![-](imgs/host.JPG)            
+The Pi will then reboot       
 
 Connect a Ethernet Cable to the PS4 and Pi     
 # NOTICE!  
