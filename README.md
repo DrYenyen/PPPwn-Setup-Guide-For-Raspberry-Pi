@@ -146,7 +146,9 @@ If you setup samba to access the pppwn folder for the exploit files you can acce
 or
 smb:\\pppwn.local\pppwn
 
-The share has no user/password required to access it.    
+The share has no user/password required to access it.   
+    
+	
 5.  Do you want to use the old python version of pppwn, it is much slower (Y|N)?: 
 This will most likely only show if you initially chose to enable it at this point choose if you want to actively use it  (here i chose not to)   
 ![-](imgs/python2.JPG)    
