@@ -174,9 +174,9 @@ The only other compaible firmwares at the time of writing are 10.01, 10.00, 9.60
 ![-](imgs/ipv6.JPG)        
 It is highly reccomended to choose N here when we worked on the [fix for troubled consoles](https://github.com/TheOfficialFloW/PPPwn/pull/66)     
 We made sure it works with many consoles good and troubled       
-16. Would you like to change the hostname, the default is pppwn          
-(Y|N)?:           	
-![-](imgs/host.JPG)             
+16. Would you like to change the hostname, the default is pppwn    
+(Y|N)?:                     	
+![-](imgs/host.JPG)                
 The Pi will then reboot       
 
 Connect a Ethernet Cable to the PS4 and Pi     
