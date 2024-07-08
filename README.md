@@ -22,7 +22,7 @@ For this exploit it is best to use **Raspberry Pi OS Lite** found in **Raspberry
 **General**  
 ![-](imgs/General2.JPG)  
 **Set hostname**      
- This will be what you type in as your SSH hostname   
+ This will be what you type in as your SSH hostname (it will later be automatically changed to pppwn.local)     
 **Set usename and password**  
 Used to log into the pi :/   
 Set them as anything you want just remember them for later  
