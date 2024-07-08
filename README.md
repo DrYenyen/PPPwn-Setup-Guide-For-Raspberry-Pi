@@ -225,28 +225,34 @@ If the exploit is stuck and not working use this to restart it
 **Reboot Pi**   
 1. Restarts the Pi    
 2. Resets the PPPwn script   
-3. Resets ps4 internet connection if you chose **Y** on > 1. Do you want the console to connect to the internet after PPPwn?  
+3. Resets ps4 internet connection    
   
   
 **Shutdown Pi**    
 1. Stops the exploit 
 2. Stops intenet to the PS4 if you chose **Y** on > 1. Do you want the console to connect to the internet after PPPwn?   
 3. Turns off the Pi but LED lights will still be on due to it being plugged into power if PS4 is turned on or if connected to wall outlet  
-**To turn off the LED's see [Turning off LED's](https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi#turning-off-leds)  
-4. Useful if you are booting the console from rest mode and already have GOLDHEN activated  simply turns the Pi off  
-5. Requires power to be disabled and then enabled to boot the Pi again    
-    
+**To turn off the LED's see [Turning off LED's](https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi#turning-off-leds)  or use the dropdown menu    
+
+**UPDATE**      
+Press it to update to the latest Pi-PPPwn version       
+
 **Interface**  
-Allows you to change the ethernet adapter that is being used  
-    
+Allows you to change the ethernet adapter that is being used      
+
 **Firmaware Version**     
-Allows you to change between stage2 payload for 9.00 and 11.00 (11.00 Default unless changed during > 6. Would you like to change the firmware version being used, the default is 11.00   
-This allows you to use 1 Pi between consoles with different firmware versions (Only 9.00 and 11.00 supported at this time)  
-    
-**Use usb ethernet adapter**    
-Allows you to change from using the ethernet port on your Pi to a USB port (Requires usb to ethernet adapter)  
-  
+Allows you to change the exploit firmware version for your console    
+
 **Use Python Version**    
+Use the python version or change PPPwn C++ Options    
+    
+**Use original ipv6**     
+Highly reccomended to keep it unchecked    
+
+
+
+**Use usb ethernet adapter**    
+Allows you to change from using the ethernet port on your Pi to a USB port (Requires usb to ethernet adapter)    
   
 **Detect Console Shutdown and restart PPPwn**  
 Restarts the PPPwn script after the console has been turned off (only works if the Pi is set to always be turned on)  
