@@ -310,8 +310,7 @@ Downgrading can be done under certain conditions
 1. You have not initialised the console on the current firmware    
 2. You have not reinstalled system firmware to fix Hard Drive issues    
 3. You have not replaced your Hard Drive and reinstalled the current system firmware    
-4. You have not downloaded the network update to 100%    
-5. Your Syscon must be A0X-COLX (X=Digits on your Syscon)    
+4. Your Syscon must be A0X-COLX (X=Digits on your Syscon)    
 **You can watch a full guide by [MODDED WARFARE](https://www.youtube.com/watch?v=JxeSP1PJtEs&t=764s)**     
 
 # pppwn.local
@@ -320,14 +319,20 @@ A: Because you're not on the same network as the raspberry pi, turn off your VPN
 
 # GOLDHEN PPPWN support 
 **Current supported versions**   
-*9.00*  
+*9.00*  *9.60* 
 *11.00*    
 *10.00 and 10.01*  
-  
+     
+# PS4HEN PPPWN support 
+*7.50* to *11.00*   excluding already compatible goldhen firmwares   
+Although it has less features than goldhen    
+![-](imgs/vtx.png)          
 # Can i do it over Wi-Fi instead of using an ethernet cable  
 **Nope**     
   
 # Turning off LED's   
+You can either use the Web interface or   
+
 Put the sd card into your pc and find config.txt  
   
 Add these lines to the bottom for the leds you want to disable:  
