@@ -319,10 +319,8 @@ A: Because you're not on the same network as the raspberry pi, turn off your VPN
 
 # GOLDHEN PPPWN support 
 **Current supported versions**   
-*9.00*  *9.60* 
-*11.00*    
-*10.00 and 10.01*  
-     
+*9.00*  *9.60* *10.00 and 10.01* *11.00*      
+         
 # PS4HEN PPPWN support 
 *7.50* to *11.00*   excluding already compatible goldhen firmwares   
 Although it has less features than goldhen    
