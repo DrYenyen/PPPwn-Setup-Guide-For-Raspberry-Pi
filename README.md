@@ -252,7 +252,10 @@ Press it to update to the latest Pi-PPPwn version
 Allows you to change the ethernet adapter that is being used      
 
 **Firmaware Version**     
-Allows you to change the exploit firmware version for your console    
+Allows you to change the exploit firmware version for your console      
+    
+**Time to restart PPPwn if it hangs**     
+Use the drop down menu to change in minutes    	
 
 **Use Python Version**    
 Use the python version or change PPPwn C++ Options    
@@ -260,10 +263,13 @@ Use the python version or change PPPwn C++ Options
 **Use original ipv6**     
 Highly reccomended to keep it unchecked    
 
-
-
-**Use usb ethernet adapter**    
-Allows you to change from using the ethernet port on your Pi to a USB port (Requires usb to ethernet adapter)    
+**Use usb ethernet adapter for console connection**       
+Allows you to change from using the ethernet port on your Pi to a USB port (Requires usb to ethernet adapter)      
+    
+**Detect if goldhen is running (useful in rest mode)**     
+     
+**Enable verbose PPPwn**    
+Allows you to view the termianl output   
   
 **Detect Console Shutdown and restart PPPwn**  
 Restarts the PPPwn script after the console has been turned off (only works if the Pi is set to always be turned on)  
