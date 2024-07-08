@@ -89,12 +89,12 @@ sudo rm -f -r PI-Pwn
 ```    
 ```
 git clone https://github.com/stooged/PI-Pwn
-```  
-```
-cd PI-Pwn
-```  
+```    
 ```
 sudo cp -r PPPwn /boot/firmware/
+```    
+```
+cd PI-Pwn
 ```  
 ```
 cd /boot/firmware/PPPwn
@@ -104,44 +104,82 @@ sudo chmod 777 *
 ```  
 ```
 sudo bash install.sh
-```
-
-Or use this one line install script provided by [FalsePhilosopher](https://github.com/FalsePhilosopher)  
-```
-sudo wget -q -O - https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi/raw/main/install.sh | bash && cd /boot/firmware/PPPwn && ./install.sh  
-```    
+```   
   
 # The Terminal will then ask you some setup questions  
   
 
-1. Do you want to detect console shutdown and restart PPPwn  
-Restarts the PPPwn script after the console has been turned off (only works if the Pi is set to always be turned on)    
-![-](imgs/newshut.JPG)   
-2. Do you want the console to connect to the internet after PPPwn?  
-Only for compatible Pi's which are connected to your home Wi-Fi network      
-Chosing **Y** for this option means your PS4 will have internet access and the Pi will not turn off you will be able to access the webserver http://pppwn.local [**WEBSERVER PREVIEW**](https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi?tab=readme-ov-file#webserver-preview) for future control of the Pi after a successful pwn run you will also **NOT** be asked  > 3. Do you want the Pi to shutdown after pwn success  
-Choosing **Y** for this option you **WILL** be asked >  2. Do you want to set a PPPoE username and passsword ?  
-If you choose **N** you **WILL** be asked > 3. Do you want the Pi to shutdown after pwn success  
-![-](imgs/Q1.JPG) 
-3. Do you want to set a PPPoE username and passsord ?  If you select **N** then the defaults will be used   
+1. Do you want to enable the option to use the python(slower) PPPwn(Y|N)?:   
+![-](imgs/python.JPG)   
+2. Do you want to install the FTP server (Y|N)?:   
+![-](imgs/ftp.JPG) 
+If the pi pwn was setup to allow internet access you can use the ftp, klog, and binloader servers on the console
+Your pi must be also connected to your home network via wifi or a second ethernet connection
+To connect to the servers from your pc just connect to the raspberry pi ip on your network and all requests will be forwarded to the console   
+Do you want to set the root account password  
+To use FTP you must set the root account password so you can login to the ftp server with full write permissions  
+3. Do you want to set the root account password  
+(Y|N)?:    
+Choose y and set the account password remember it for later use  
+![-](imgs/ftp2.JPG) 
+4. Do you want to setup SAMBA share (Y|N)?:     
+![-](imgs/samba.JPG)    
+From  [Wikipedia](https://en.wikipedia.org/wiki/Samba_(software))      
+Samba allows file and print sharing between computers running Microsoft Windows and computers running Unix. It is an implementation of dozens of services and a dozen protocols, including:    
+NetBIOS over TCP/IP (NBT)   
+SMB (known as CIFS in some versions)   
+Samba supports POSIX extensions for CIFS/SMB. The initial extension was CIFS VFS (CAP_UNIX) from 2004, which has been somewhat superseded by SMB3.    
+DCE/RPC or more specifically, MSRPC, the Network Neighborhood suite of protocols    
+A WINS server also known as a NetBIOS Name Server (NBNS)    
+The NT Domain suite of protocols which includes NT Domain Logons   
+Security Account Manager (SAM) database   
+Local Security Authority (LSA) service   
+NT-style printing service (SPOOLSS)   
+NTLM    
+Active Directory Logon using modified versions of Kerberos and LDAP    
+DFS server     
+5.  Do you want to use the old python version of pppwn, it is much slower (Y|N)?: 
+This will most likely only show if you initially chose to enable it at this point choose if you want to actively use it  (here i chose not to)   
+![-](imgs/python2.JPG.)    
+6. Do you want to set a PPPoE username and passsord ?  If you select **N** then the defaults will be used   
 Reccomended to choose **N** if you choose **Y** please remember them for later  
-![-](imgs/ppp.png)       
-4. Do you want the Pi to shutdown after pwn success    
-Choose **N** if you want to be able to access the webserver  http://pppwn.local [**WEBSERVER PREVIEW**](https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi?tab=readme-ov-file#webserver-preview)  for future control of the Pi if not choose **Y**    
-![-](imgs/Q2.JPG)  
-5. Are you using a usb to ethernet adapter    
+![-](imgs/ppp.png)        
+7. Do you want to detect console shutdown and restart PPPwn (Y|N)?:    
+![-](imgs/yes.JPG)     
+8. Do you want the console to connect to the internet after PPPwn? (Y|N)?:   
+![-](imgs/connect.JPG)      
+9. Are you using a usb to ethernet adapter    
 For Pi's with no ethernet port choose **Y** or if you are using a Pi with an ethernet port choose **N**  
-![-](imgs/Q3.JPG)  
-7. Would you like to change the firmware version being used, the default is 11.00  
-The only other compaible firmwares at the time of writing are *9.00*, *10.00* and *10.01* so choose **Y** and type in 9.00 if that is the firmware you are using or simply choose **N** if you are on 11.00  
+![-](imgs/Q3.JPG)     
+10. Do you want to try and detect if goldhen is running and skip running pppwn if found, useful for rest mode   
+(Y|N)?:   
+![-](imgs/goldhen.JPG)    
+11. Do you want pppwn to run in verbose mode    
+(Y|N)?:         
+What is verbose ?  
+In computing, Verbose mode is an option available in many computer operating systems and programming languages that provides additional details as to what the computer is doing and what drivers and software it is loading during startup or in programming it would produce detailed output for diagnostic purposes thus makes a program easier to debug.    
+From  [Wikipedia](https://en.wikipedia.org/wiki/Verbose_mode)         
+![-](imgs/verbose.JPG)         
+Here i chose y.    
+12. Do you want to change the timeout for pppwn if it hangs, the default is 5 (minutes)  
+(Y|N)?:   
+![-](imgs/time.JPG)
+12. Would you like to change the firmware version being used, the default is 11.00  
+The only other compaible firmwares at the time of writing are 10.01, 10.00, 9.60, 9.00,   
 ![-](imgs/Q5.JPG) 
-8. Would you like to change the pi lan interface, the default is eth0 choose **N** to continue or **Y** to change it  
-![-](imgs/Q6.JPG)     
-**If you are using a Pi 4 or 5**  
-You will be asked       
-9. Do you want the Pi to act as a virtual drive. Meaning you dont need an extra [USB drive](https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi#putting-goldhen-on-a-usb)  (may be obsolete)  
-The Pi will then reboot  
-Connect a Ethernet Cable to the PS4 and Pi  
+13. Would you like to change the pi lan interface, the default is eth0 choose **N** to continue or **Y** to change it  
+![-](imgs/Q6.JPG)        
+15. Do you want to use the original ipv6 address that was used in pppwn    
+(Y|N)?:        
+![-](imgs/ipv6.JPG)    
+It is highly reccomended to choose N here when we worked on the [fix for troubled consoles](https://github.com/TheOfficialFloW/PPPwn/pull/66)     
+We made sure it works with many consoles good and troubled       
+16. Would you like to change the hostname, the default is pppwn   
+(Y|N)?:    	
+![-](imgs/host.JPG)         
+The Pi will then reboot    
+
+Connect a Ethernet Cable to the PS4 and Pi     
 # NOTICE!  
 # For future SSH access   
 # After reboot the Pi's previosly set hostname will be changed to *pppwn.local* the username and password will stay the same  
@@ -264,11 +302,7 @@ sudo chmod 777 *
 ```  
 ```
 sudo bash install.sh
-```  
-Or use this one line update script provided by [FalsePhilosopher](https://github.com/FalsePhilosopher)  
-```
-sudo wget -q -O - https://github.com/DrYenyen/PPPwn-Setup-Guide-For-Raspberry-Pi/raw/main/update.sh | bash && cd /boot/firmware/PPPwn && ./install.sh
-```  
+```     
   
 The Terminal/CMD/Putty will ask  
 Config found, Do you want to change stored settings **Y** or **N**   
