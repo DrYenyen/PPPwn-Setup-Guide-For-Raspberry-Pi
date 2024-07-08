@@ -140,7 +140,7 @@ Active Directory Logon using modified versions of Kerberos and LDAP
 DFS server     
 5.  Do you want to use the old python version of pppwn, it is much slower (Y|N)?: 
 This will most likely only show if you initially chose to enable it at this point choose if you want to actively use it  (here i chose not to)   
-![-](imgs/python2.JPG.)    
+![-](imgs/python2.JPG)    
 6. Do you want to set a PPPoE username and passsord ?  If you select **N** then the defaults will be used   
 Reccomended to choose **N** if you choose **Y** please remember them for later  
 ![-](imgs/ppp.png)        
