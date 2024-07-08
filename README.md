@@ -112,7 +112,7 @@ sudo bash install.sh
 1. Do you want to enable the option to use the python(slower) PPPwn(Y|N)?:   
 ![-](imgs/python.JPG)   
 2. Do you want to install the FTP server (Y|N)?:   
-![-](imgs/ftp.JPG) 
+![-](imgs/ftp.JPG)     
 If the pi pwn was setup to allow internet access you can use the ftp, klog, and binloader servers on the console
 Your pi must be also connected to your home network via wifi or a second ethernet connection
 To connect to the servers from your pc just connect to the raspberry pi ip on your network and all requests will be forwarded to the console   
@@ -156,9 +156,9 @@ For Pi's with no ethernet port choose **Y** or if you are using a Pi with an eth
 ![-](imgs/goldhen.JPG)    
 11. Do you want pppwn to run in verbose mode    
 (Y|N)?:         
-What is verbose ?  
-In computing, Verbose mode is an option available in many computer operating systems and programming languages that provides additional details as to what the computer is doing and what drivers and software it is loading during startup or in programming it would produce detailed output for diagnostic purposes thus makes a program easier to debug.    
-From  [Wikipedia](https://en.wikipedia.org/wiki/Verbose_mode)         
+What is verbose ?      
+From  [Wikipedia](https://en.wikipedia.org/wiki/Verbose_mode) 
+In computing, Verbose mode is an option available in many computer operating systems and programming languages that provides additional details as to what the computer is doing and what drivers and software it is loading during startup or in programming it would produce detailed output for diagnostic purposes thus makes a program easier to debug.               
 ![-](imgs/verbose.JPG)         
 Here i chose y.    
 12. Do you want to change the timeout for pppwn if it hangs, the default is 5 (minutes)  
@@ -175,7 +175,7 @@ The only other compaible firmwares at the time of writing are 10.01, 10.00, 9.60
 It is highly reccomended to choose N here when we worked on the [fix for troubled consoles](https://github.com/TheOfficialFloW/PPPwn/pull/66)     
 We made sure it works with many consoles good and troubled       
 16. Would you like to change the hostname, the default is pppwn   
-(Y|N)?:    	
+(Y|N)?:       	
 ![-](imgs/host.JPG)         
 The Pi will then reboot    
 
