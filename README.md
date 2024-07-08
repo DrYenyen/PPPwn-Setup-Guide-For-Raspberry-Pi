@@ -246,23 +246,13 @@ This allows you to use 1 Pi between consoles with different firmware versions (O
 **Use usb ethernet adapter**    
 Allows you to change from using the ethernet port on your Pi to a USB port (Requires usb to ethernet adapter)  
   
-**Use C++ Version**  *obsolete*  
-If during > 5. Do you want to use the old python version of pppwn, It is much slower. You chose **Y** you can now change from Python to C++)   
+**Use Python Version**    
   
 **Detect Console Shutdown and restart PPPwn**  
 Restarts the PPPwn script after the console has been turned off (only works if the Pi is set to always be turned on)  
   
 **Enable console internet access**  
-If during > 1. Do you want the console to connect to the internet after PPPwn? You chose **N** you can now change it and give your PS4 internet access through the Pi **Notice** this stops the Pi from Turning off   
-  
-**Enable USB Drive**  
-Enables either the plugged in physical or virtual USB drive for Pi 4 and above  
-*TBC*      
-  
-**Ports**   
-No changes are needed   
-  
-  
+If during > 1. Do you want the console to connect to the internet after PPPwn? You chose **N** you can now change it and give your PS4 internet access through the Pi **Notice** this stops the Pi from Turning off         
 After you have finished tweaking your settings press **Save** *Excluding* **Load Payloads**, **Restart PPPwn**, **Reboot Pi** and **Shutdown Pi**  
   
 # Updating [PI-Pwn](https://github.com/stooged/PI-Pwn?tab=readme-ov-file#pi-pwn)  
