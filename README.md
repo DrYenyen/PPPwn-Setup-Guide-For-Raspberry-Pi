@@ -137,7 +137,9 @@ Local Security Authority (LSA) service
 NT-style printing service (SPOOLSS)   
 NTLM    
 Active Directory Logon using modified versions of Kerberos and LDAP    
-DFS server     
+DFS server       
+    
+	
 Additionally  
 If you setup samba to access the pppwn folder for the exploit files you can access the drive on...
 \\pppwn.local\pppwn
