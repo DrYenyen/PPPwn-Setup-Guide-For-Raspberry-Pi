@@ -379,10 +379,11 @@ Credit to *stooged*
 # FULL CREDIT TO [stooged](https://github.com/stooged)    
 More info on his GitHub https://github.com/stooged/PI-Pwn     
     
-# Other guides       
-# 1. [How to use a GUI tool to run PPPwn on Windows](https://github.com/DrYenyen/PPPwnGo-Guide)       
-# 2. [How to manually update PS4 firmware](https://github.com/DrYenyen/PS4-Firware-Update-Guide)                    
-# 3. [How to install FPKGS](https://github.com/DrYenyen/How-To-Install-PS4-FPKGS)                   
-# 4. [How to set up PPPwn on a OpenWRT compatible router(by FalsePhilosopher)](https://github.com/FalsePhilosopher/PPPwnWRT)                 	 
+# Other guides            
+# 1. [Guides Thread](https://github.com/DrYenyen/Guide-Links-For-PS4)     
+# 2. [How to use a GUI tool to run PPPwn on Windows](https://github.com/DrYenyen/PPPwnGo-Guide)           
+# 3. [How to manually update PS4 firmware](https://github.com/DrYenyen/PS4-Firware-Update-Guide)                        
+# 4. [How to install FPKGS](https://github.com/DrYenyen/How-To-Install-PS4-FPKGS)                        
+# 5. [How to set up PPPwn on a OpenWRT compatible router(by FalsePhilosopher)](https://github.com/FalsePhilosopher/PPPwnWRT)                     	 
 
 
