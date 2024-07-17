@@ -149,9 +149,11 @@ smb:\\pppwn.local\pppwn
 The share has no user/password required to access it.   
     
 	
-5.  Do you want to use the old python version of pppwn, it is much slower (Y|N)?: 
-This will most likely only show if you initially chose to enable it at this point choose if you want to actively use it  (here i chose not to)   
-![-](imgs/python2.JPG)    
+5.  Do you want to use the old python version of pppwn, it is much slower (Y|N)?:    (you will not be asked this if at the first question you chose **n**)
+This will most likely only show if you initially chose to enable it at this point choose if you want to actively use it  (here i chose not to) 
+![-](imgs/python2.JPG)     
+6. Do you want to use Goldhen if it is available for the selected firmware (Y|N)?:        
+![-](imgs/goldhennew.JPG)      
 6. Do you want to set a PPPoE username and passsord ?  If you select **N** then the defaults will be used   
 Reccomended to choose **N** if you choose **Y** please remember them for later  
 ![-](imgs/ppp.png)        
