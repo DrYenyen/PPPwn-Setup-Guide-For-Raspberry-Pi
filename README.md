@@ -91,10 +91,10 @@ sudo rm -f -r PI-Pwn
 git clone https://github.com/stooged/PI-Pwn
 ```    
 ```
-sudo cp -r PPPwn /boot/firmware/
+cd PI-Pwn
 ```    
 ```
-cd PI-Pwn
+sudo cp -r PPPwn /boot/firmware/
 ```  
 ```
 cd /boot/firmware/PPPwn
