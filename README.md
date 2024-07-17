@@ -150,7 +150,7 @@ The share has no user/password required to access it.
     
 	
 5.  Do you want to use the old python version of pppwn, it is much slower (Y|N)?:    (you will not be asked this if at the first question you chose **n**)     
-Choose to enable it at this point choose if you want to actively use it  (here i chose not to)      
+Choose to enable it at this point if you want to actively use it  (here i chose not to)      
 ![-](imgs/python2.JPG)     
 6. Do you want to use Goldhen if it is available for the selected firmware (Y|N)?:        
 ![-](imgs/goldhennew.JPG)      
@@ -176,12 +176,13 @@ In computing, Verbose mode is an option available in many computer operating sys
 Here i chose y.    
 12. Do you want to change the timeout for pppwn if it hangs, the default is 5 (minutes)  
 (Y|N)?:   
-![-](imgs/time.JPG)
-12. Would you like to change the firmware version being used, the default is 11.00  
-The only other compaible firmwares at the time of writing are 10.01, 10.00, 9.60, 9.00,   
-![-](imgs/Q5.JPG) 
+![-](imgs/time.JPG)    
+12. Would you like to change the firmware version being used, the default is 11.00       
+![-](imgs/Q5.JPG)        
+The only compaible firmwares for Goldhen at the time of writing are 11.00, 10.01, 10.00, 9.60, 9.00,  all other firmwares 7.00, to 11.0, are available as PS4hen VTX which has less features as shown below      
+![-](imgs/Q6.JPG)  
 13. Would you like to change the pi lan interface, the default is eth0 choose **N** to continue or **Y** to change it  
-![-](imgs/Q6.JPG)        
+![-](imgs/vtx.png)              
 15. Do you want to use the original ipv6 address that was used in pppwn    
 (Y|N)?:            
 ![-](imgs/ipv6.JPG)        
