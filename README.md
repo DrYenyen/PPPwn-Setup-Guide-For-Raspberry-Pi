@@ -176,13 +176,13 @@ In computing, Verbose mode is an option available in many computer operating sys
 Here i chose y.    
 12. Do you want to change the timeout for pppwn if it hangs, the default is 5 (minutes)  
 (Y|N)?:   
-![-](imgs/time.JPG)    
-12. Would you like to change the firmware version being used, the default is 11.00       
-![-](imgs/Q5.JPG)        
-The only compaible firmwares for Goldhen at the time of writing are 11.00, 10.01, 10.00, 9.60, 9.00,  all other firmwares 7.00, to 11.0, are available as PS4hen VTX which has less features as shown below      
-![-](imgs/Q6.JPG)  
+![-](imgs/time.JPG)
+12. Would you like to change the firmware version being used, the default is 11.00  
+![-](imgs/Q5.JPG)    
+The only compaible firmwares for Goldhen at the time of writing are 11.00, 10.01, 10.00, 9.60, 9.00,  all other firmwares 7.00, to 11.0, are available as PS4hen VTX which has less features as shown below
+![-](imgs/vtx.png)    
 13. Would you like to change the pi lan interface, the default is eth0 choose **N** to continue or **Y** to change it  
-![-](imgs/vtx.png)              
+![-](imgs/Q6.JPG)        
 15. Do you want to use the original ipv6 address that was used in pppwn    
 (Y|N)?:            
 ![-](imgs/ipv6.JPG)        
