@@ -388,5 +388,5 @@ More info on his GitHub https://github.com/stooged/PI-Pwn
 # 3. [How to manually update PS4 firmware](https://github.com/DrYenyen/PS4-Firware-Update-Guide)                        
 # 4. [How to install FPKGS](https://github.com/DrYenyen/How-To-Install-PS4-FPKGS)                        
 # 5. [How to set up PPPwn on a OpenWRT compatible router(by FalsePhilosopher)](https://github.com/FalsePhilosopher/PPPwnWRT)                     	 
-
+# 6. [How-To-Use-Cheats-and-Patches-On-PS4](https://github.com/DrYenyen/How-To-Use-Goldhen-Cheats-and-Patches-On-PS4)     
 
