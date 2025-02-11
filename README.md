@@ -197,7 +197,7 @@ Connect a Ethernet Cable to the PS4 and Pi
 # For future SSH access   
 # After reboot the Pi's previosly set hostname will be changed to *pppwn.local* the username and password will stay the same  unless changed     
 # Putting Goldhen on a USB      
-Download the latest pre-release [Goldhen](https://github.com/GoldHEN/GoldHEN/releases) By SiSTR0  (Skip if you have a Pi 4 or 5 and chose **Y** to have it act as a virtual drive (Pi has to be connected to PS4 USB port)     
+Download the latest pre-release [Goldhen](https://github.com/GoldHEN/GoldHEN/releases) By SiSTR0 
 And put the *goldhen.bin* on a USB formatted in exFAT or FAT32 and plug it into your PS4.
 
 Windows has several built-in disk format tools that can be used to format a USB drive.  
